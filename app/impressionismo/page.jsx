@@ -7,8 +7,8 @@ import styles from "@/app/impressionismo/galeria.module.css"
 
 
 const fotos1 = [
-    "img:'../impressio/img1.png'","texto:'Edgar Degas (1834-1917) foi um pintor impressionista francês, consagrado por suas pinturas femininas,sobretudo pela série das bailarinas e também pelo efeito de movimento retratado em suas obras.Iniciou a tela A FAMILIA BELLELLI, onde retratou suas primas, sua tia Laura e seu tio Genaro.A obra só foi concluída em 1867'",
-    "img:'../impressio/img2.png'","texto:'O ALMOÇO DOS BARQUEIROS: uma obra que saia do lugar comum impressionista. Pierre-Auguste Renoir pintou este quadro entre 1880 e 1881 e chamava atenção a escolha do tema: os subúrbios.'"
+    '../impressio/img1.png',
+    '../impressio/img2.png',
     
 ]
 
@@ -19,7 +19,7 @@ const fotos2 = [
 export default function Home() {
     return (
         <>
-            <body className={styles.corpoo}>
+            <body className={styles.corpo}>
 
 
                 <section className={styles.img_fundo}>
@@ -45,10 +45,17 @@ export default function Home() {
                     <ImageGallery fotos={fotos1} />
 
                     <div className={styles.description}>
+                        <p>
+                            Edgar Degas (1834-1917) foi um pintor impressionista francês, consagrado por suas pinturas femininas,
+                            sobretudo pela série das bailarinas e também pelo efeito de movimento retratado em suas obras.
+                            Iniciou a tela "A Família Bellelli", onde retratou suas primas, sua tia Laura e seu tio Genaro.
+                            A obra só foi concluída em 1867
+                        </p>
 
-                        
-                        
-
+                        <p>
+                            "O Almoço dos Barqueiros": uma obra que saia do lugar comum impressionista.
+                            Pierre-Auguste Renoir pintou este quadro entre 1880 e 1881 e chamava atenção a escolha do tema: os subúrbios.
+                        </p>
                     </div>
                 </section>
 
