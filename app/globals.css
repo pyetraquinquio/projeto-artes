@@ -97,15 +97,6 @@ footer {
     padding: 2rem;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
 
 header {
   text-align: center;
@@ -116,6 +107,7 @@ header {
 
 nav {
   background-color: #875d3467;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 ul {

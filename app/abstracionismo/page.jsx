@@ -46,7 +46,7 @@ export default function Impressionismo() {
                     </li>
 
                     <li>
-                        <Link href="/rococo">Rococo</Link>
+                        <Link href="/rococo">Rococó</Link>
                     </li>
 
                     <li>
