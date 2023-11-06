@@ -8,10 +8,10 @@ import Link from "next/link"
 
 
 const fotos = [
-    { img: '/impressio/img1.png', text: "Edgar Degas foi um pintor impressionista francês, consagrado por suas pinturas femininas, sobretudo pela série das bailarinas e também pelo efeito de movimento retratado em suas obras. Iniciou a tela 'A FAMÍLIA BALLELLI', onde retratou suas primas, sua tia Laura e seu tio Genaro. A obra só foi concluída em 1867." },
-    { img: '/impressio/img2.png', text: "'O ALMOÇO DOS BARQUEIROS': uma obra que saia do lugar comum impressionista. Pierre-Auguste Renoir pintou este quadro entre 1880 e 1881 e chamava atenção a escolha do tema: os subúrbios." },
-    { img: '/impressio/img3.jpg', text: "'DIA DE VERÃO' possui características da pintura impressionista como as pinceladas grossas, Berthe escolheu uma paisagem com duas mulheres num barco, uma cena do cotidiano. Essa obra possui a influência de Éduoard Manet, que se tornou um amigo e cunhado muito intrometido, que decidia tudo sobre as pinturas de Berthe, chegando até mesmo a pintar sobre suas telas, como aconteceu em Menina no Sofá." },
-    { img: '/impressio/img4.png', text: "Mary Cassatt participou do movimento impressionista e rompeu com os padrões acadêmicos, sua pintura mais famosa é 'MENINA EM UMA POLTRONA AZUL', que foi exibida na quarta exposição impressionista." },
+    { img: '/neo/neo1.png', text: "O quadro 'O Juramento dos Horácios' (1784), de Jacques-Louis David, celebra a arte, a vida e a moralidade da Roma antiga. A República romana estava em guerra e a disputa devia ser resolvida por um combate mortal entre três irmãos romanos, os Horácios, e três irmãos inimigos, os Curiácios." },
+    { img: '/neo/neo5.png', text: "" },
+    { img: '/neo/neo6.png', text: "" },
+    { img: '/neo/neo4.png', text: "A obra Madame Ingres (1859), Jean-Auguste-Dominique Ingres, foi uma pintura do período neoclassicista." },
 ]
 
 
@@ -62,13 +62,11 @@ export default function Impressionismo() {
             <section className={styles.img_fundo}>
 
 
-                <h1 className={styles.titulo}>Impressionismo</h1>
+                <h1 className={styles.titulo}>Neoclassicismo</h1>
 
                 <br></br>
 
-                <p className={styles.fundo_texto}>O impressionismo é um movimento artístico francês surgido no final do século XIX.
-                    Artistas impressionistas, como Claude Monet, retrataram paisagens com contornos imprecisos.
-                    “Impressão, nascer do sol”, de Claude Monet, é a obra que deu nome ao movimento impressionista.
+                <p className={styles.fundo_texto}>O Neoclassicismo foi um movimento artístico-cultural que surgiu na Europa, no século XVIII, com características que marcaram as diversas manifestações artísticas, como a pintura, escultura, literatura e arquitetura. Foi um movimento influenciado pelo Iluminismo, pela Revolução Francesa e pela Revolução Industrial.
                 </p>
 
             </section>
