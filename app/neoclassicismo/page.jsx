@@ -9,8 +9,8 @@ import Link from "next/link"
 
 const fotos = [
     { img: '/neo/neo1.png', text: "O quadro 'O Juramento dos Horácios' (1784), de Jacques-Louis David, celebra a arte, a vida e a moralidade da Roma antiga. A República romana estava em guerra e a disputa devia ser resolvida por um combate mortal entre três irmãos romanos, os Horácios, e três irmãos inimigos, os Curiácios." },
-    { img: '/neo/neo5.png', text: "" },
-    { img: '/neo/neo6.png', text: "" },
+    { img: '/neo/neo5.png', text: "A obra A Morte de Sócrates, de Jacques Louis David, representa a cena de morte do filósofo grego Sócrates, por ter sido contra as ideias dos atenienses e corromper a mente dos mais jovens. " },
+    { img: '/neo/neo6.png', text: "O Retrato de Mrs. Serizy (1794), de Jacques-Louis David, mostra a Madame Serizy em um ambiente com seu filho, tendo acabado de voltar de um passeio. Suas bochechas são rosadas e ela carrega um monte de flores silvestres que são pintadas de uma forma animada mas meticuloso." },
     { img: '/neo/neo4.png', text: "A obra Madame Ingres (1859), Jean-Auguste-Dominique Ingres, foi uma pintura do período neoclassicista." },
 ]
 
