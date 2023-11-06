@@ -4,7 +4,7 @@ import ImageGallery from "@/components/ImageGallery"
 //import { LoggedUserProvider } from "@/contexts/LoggedUserContext";
 //import Header from "@/components/Header"
 import styles from "@/app/impressionismo/galeria.module.css"
-import Link from "next/link";
+import Link from "next/link"
 
 
 const fotos = [
@@ -19,7 +19,7 @@ export default function Impressionismo() {
     return (
         <>
 
-            <nav>
+<nav>
                 <ul>
                     <li>
                         <Link href="/principal">Início</Link>
@@ -54,7 +54,6 @@ export default function Impressionismo() {
                     </li>
                 </ul>
             </nav>
-            
 
             <section className={styles.img_fundo}>
 
@@ -88,7 +87,7 @@ export default function Impressionismo() {
             <br></br>
             <br></br>
 
-            <footer>
+            <footer className={styles.footer}>
                 <h2>Grupo 05</h2>
                 <h2>SESI SENAI</h2>
                 <h2>2023</h2>
