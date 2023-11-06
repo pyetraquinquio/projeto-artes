@@ -15,7 +15,7 @@ const fotos = [
 ]
 
 
-export default function Impressionismo() {
+export default function Romantismo() {
     return (
         <>
 
