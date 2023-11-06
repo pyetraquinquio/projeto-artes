@@ -1,0 +1,16 @@
+.imgfundo {
+    background-image: url(/abs/img-abs-fundo.jpg) ;
+    width: 100%;
+    height:200px ;
+    background-color: #c3ad75f5;
+    color: #fff1e6;
+    padding: 2rem;
+}
+
+.fundo_texto {
+    background-color: #b6966cdd;
+    color: #fff1e6;
+    width: 40%;
+    margin-left: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+  }

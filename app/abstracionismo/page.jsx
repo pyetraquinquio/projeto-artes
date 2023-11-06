@@ -4,6 +4,7 @@ import ImageGallery from "@/components/ImageGallery"
 //import { LoggedUserProvider } from "@/contexts/LoggedUserContext";
 //import Header from "@/components/Header"
 import styles from "@/app/impressionismo/galeria.module.css"
+import style from "@/app/abstracionismo/abs.module.css"
 import Link from "next/link"
 
 
@@ -15,7 +16,7 @@ const fotos = [
 ]
 
 
-export default function Impressionismo() {
+export default function Abstracionismo() {
     return (
         <>
 
@@ -59,14 +60,14 @@ export default function Impressionismo() {
                 </ul>
             </nav>
 
-            <section className={styles.img_fundo}>
+            <section className={style.imgfundo}>
 
 
-                <h1 className={styles.titulo}>Impressionismo</h1>
+                <h1 className={styles.titulo}>Abstracionismo</h1>
 
                 <br></br>
 
-                <p className={styles.fundo_texto}>O impressionismo é um movimento artístico francês surgido no final do século XIX.
+                <p className={style.fundo_texto}>O impressionismo é um movimento artístico francês surgido no final do século XIX.
                     Artistas impressionistas, como Claude Monet, retrataram paisagens com contornos imprecisos.
                     “Impressão, nascer do sol”, de Claude Monet, é a obra que deu nome ao movimento impressionista.
                 </p>
