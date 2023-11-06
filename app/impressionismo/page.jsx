@@ -57,6 +57,10 @@ export default function Impressionismo() {
                     <li>
                         <Link href="/sobrenos">Sobre nós</Link>
                     </li>
+
+                    <li>
+                        <Link href="/sobrenos">Sobre nós</Link>
+                    </li>
                 </ul>
             </nav>
 
