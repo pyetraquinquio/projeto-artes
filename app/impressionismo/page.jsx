@@ -6,83 +6,56 @@ import ImageGallery from "@/components/ImageGallery"
 import styles from "@/app/impressionismo/galeria.module.css"
 
 
-const fotos1 = [
-    '../impressio/img1.png',
-    '../impressio/img2.png',
-    
+const fotos = [
+    { img: '/impressio/img1.png', text: "Edgar Degas foi um pintor impressionista francês, consagrado por suas pinturas femininas, sobretudo pela série das bailarinas e também pelo efeito de movimento retratado em suas obras. Iniciou a tela 'A FAMÍLIA BALLELLI', onde retratou suas primas, sua tia Laura e seu tio Genaro. A obra só foi concluída em 1867." },
+    { img: '/impressio/img2.png', text: "'O ALMOÇO DOS BARQUEIROS': uma obra que saia do lugar comum impressionista. Pierre-Auguste Renoir pintou este quadro entre 1880 e 1881 e chamava atenção a escolha do tema: os subúrbios." },
+    { img: '/impressio/img3.jpg', text: "'DIA DE VERÃO' possui características da pintura impressionista como as pinceladas grossas, Berthe escolheu uma paisagem com duas mulheres num barco, uma cena do cotidiano. Essa obra possui a influência de Éduoard Manet, que se tornou um amigo e cunhado muito intrometido, que decidia tudo sobre as pinturas de Berthe, chegando até mesmo a pintar sobre suas telas, como aconteceu em Menina no Sofá." },
+    { img: '/impressio/img4.png', text: "Mary Cassatt participou do movimento impressionista e rompeu com os padrões acadêmicos, sua pintura mais famosa é 'MENINA EM UMA POLTRONA AZUL', que foi exibida na quarta exposição impressionista." },
 ]
 
-const fotos2 = [
-    '../impressio/img3.png',
-    '../impressio/img4.png',
-]
-export default function Home() {
+
+export default function Impressionismo() {
     return (
         <>
-            <body className={styles.corpo}>
+
+            <section className={styles.img_fundo}>
 
 
-                <section className={styles.img_fundo}>
-
-
-                    <h1 className={styles.fundo_titulo}>Impressionismo</h1>
-
-                    <br></br>
-
-                    <p className={styles.fundo_texto}>O impressionismo é um movimento artístico francês surgido no final do século XIX.
-                        Artistas impressionistas, como Claude Monet, retrataram paisagens com contornos imprecisos.
-                        “Impressão, nascer do sol”, de Claude Monet, é a obra que deu nome ao movimento impressionista.
-                    </p>
-
-                </section>
+                <h1 className={styles.titulo}>Impressionismo</h1>
 
                 <br></br>
 
-                <section>
+                <p className={styles.fundo_texto}>O impressionismo é um movimento artístico francês surgido no final do século XIX.
+                    Artistas impressionistas, como Claude Monet, retrataram paisagens com contornos imprecisos.
+                    “Impressão, nascer do sol”, de Claude Monet, é a obra que deu nome ao movimento impressionista.
+                </p>
 
-                    <br></br>
+            </section>
 
-                    <ImageGallery fotos={fotos1} />
+            <br></br>
+            <br></br>
 
-                    <div className={styles.description}>
-                        <p>
-                            Edgar Degas (1834-1917) foi um pintor impressionista francês, consagrado por suas pinturas femininas,
-                            sobretudo pela série das bailarinas e também pelo efeito de movimento retratado em suas obras.
-                            Iniciou a tela "A Família Bellelli", onde retratou suas primas, sua tia Laura e seu tio Genaro.
-                            A obra só foi concluída em 1867
-                        </p>
+            <h2 className={styles.h2}>Galeria de Imagens</h2>
 
-                        <p>
-                            "O Almoço dos Barqueiros": uma obra que saia do lugar comum impressionista.
-                            Pierre-Auguste Renoir pintou este quadro entre 1880 e 1881 e chamava atenção a escolha do tema: os subúrbios.
-                        </p>
-                    </div>
-                </section>
+            <br></br>
+            <br></br>
 
+            <ImageGallery fotos={fotos} />
 
-                <section >
+            <br></br>
+            <br></br>
 
-                    <ImageGallery fotos={fotos2} />
+            <h2 className={styles.h1}>Vídeo Explicativo</h2>
 
-                    <div className={styles.description}>
+            <br></br>
+            <br></br>
 
-                        <p>
-                            Uma das esculturas mais conhecidas da história da arte ocidental sem dúvida é "O Pensador",
-                            do artista francês Auguste Rodin.
-                            A primeira versão dessa obra foi concebida em 1880 e intitulada originalmente de "O poeta".
-                            Possuía cerca de 70 cm de altura. Mais tarde, a peça ganhou uma versão individual, com 1,89 m de altura.
-                        </p>
+            <footer className={styles.footer}>
+                <h2>Grupo 05</h2>
+                <h2>SESI SENAI</h2>
+                <h2>2023</h2>
+            </footer>
 
-                        <p>
-                            Mary Cassatt participou do movimento impressionista e rompeu com os padrões acadêmicos,
-                            sua pintura mais famosa é "Menina em uma poltrona azul", que foi exibida na quarta exposição impressionista.
-                        </p>
-
-                    </div>
-                </section>
-
-
-            </body>
         </>
     );
 }

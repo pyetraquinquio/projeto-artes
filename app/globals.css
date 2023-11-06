@@ -71,7 +71,7 @@
     --card-rgb: 100, 100, 100;
     --card-border-rgb: 200, 200, 200;
   }
-}
+} */
 
 * {
   box-sizing: border-box;
@@ -83,6 +83,18 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  background-color: #c1aa8c;
+  color: #fff1e6;
+}
+
+footer {
+  display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    background-color: #875d34d3;
+    color: #fff1e6;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 2rem;
 }
 
 body {
@@ -100,11 +112,27 @@ a {
   text-decoration: none;
 }
 
+.descricao{
+  margin-top: 2%;
+  margin-bottom: 3%;
+  padding: 2rem;
+  font-size: x-large;
+  color: #fff1e6;
+  width: 40%;
+  background-color: #ad824bcb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
-} */
+} 
 
 
 
