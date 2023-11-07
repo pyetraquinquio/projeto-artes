@@ -68,7 +68,7 @@ export default function SobreNos() {
 
                     <li>
 
-                        <Link href="/rococo">Rococo</Link>
+                        <Link href="/rococo">Rococó</Link>
 
                     </li>
 
