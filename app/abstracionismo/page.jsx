@@ -6,6 +6,7 @@ import ImageGallery from "@/components/ImageGallery"
 import styles from "@/app/impressionismo/galeria.module.css"
 import style from "@/app/abstracionismo/abs.module.css"
 import Link from "next/link"
+import { useUserContext } from "@/contexts/user"
 
 
 const fotos = [
@@ -17,6 +18,9 @@ const fotos = [
 
 
 export default function Abstracionismo() {
+
+    const { user } = useUserContext();
+
     return (
         <>
 
@@ -63,8 +67,10 @@ export default function Abstracionismo() {
 
             <section className={style.imgfundo}>
 
-
+                <div className="n">
                 <h1 className={styles.titulo}>Abstracionismo</h1>
+                <p>{user.name}</p>
+                </div>
 
                 <br></br>
 

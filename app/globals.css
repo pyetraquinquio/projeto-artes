@@ -156,6 +156,12 @@ iframe {
   margin-left: 33%;
 }
 
+.n{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 
 
 @media only screen and (max-width:800px) {

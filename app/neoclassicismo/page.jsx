@@ -6,6 +6,7 @@ import ImageGallery from "@/components/ImageGallery"
 import styles from "@/app/impressionismo/galeria.module.css"
 import style from "@/app/neoclassicismo/neo.module.css"
 import Link from "next/link"
+import { useUserContext } from "@/contexts/user"
 
 
 const fotos = [
@@ -17,6 +18,8 @@ const fotos = [
 
 
 export default function Neo() {
+
+    const { user } = useUserContext();
     return (
         <>
 
@@ -63,9 +66,10 @@ export default function Neo() {
 
             <section className={style.img_fundo}>
 
-
+            <div className="n">
                 <h1 className={styles.titulo}>Neoclassicismo</h1>
-
+                <p>{user.name}</p>
+</div>
                 <br></br>
 
                 <p className={styles.fundo_texto}>O Neoclassicismo foi um movimento artístico-cultural que surgiu na Europa, no século XVIII, com características que marcaram as diversas manifestações artísticas, como a pintura, escultura, literatura e arquitetura. Foi um movimento influenciado pelo Iluminismo, pela Revolução Francesa e pela Revolução Industrial.

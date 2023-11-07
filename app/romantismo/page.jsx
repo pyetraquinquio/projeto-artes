@@ -6,6 +6,7 @@ import ImageGallery from "@/components/ImageGallery"
 import styles from "@/app/impressionismo/galeria.module.css"
 import style from "@/app/romantismo/roman.module.css"
 import Link from "next/link"
+import { useUserContext } from "@/contexts/user"
 
 
 const fotos = [
@@ -17,6 +18,8 @@ const fotos = [
 
 
 export default function Romantismo() {
+
+    const { user } = useUserContext();
     return (
         <>
 
@@ -62,9 +65,10 @@ export default function Romantismo() {
 
             <section className={style.img_fundo}>
 
-
+            <div className="n">
                 <h1 className={styles.titulo}>Romantismo</h1>
-
+                <p>{user.name}</p>
+</div>
                 <br></br>
 
                 <p className={styles.fundo_texto}>O romantismo é um movimento artístico e cultural que apresenta uma visão de mundo centrada no ser humano com destaque para as sensações humanas e a liberdade de pensamento.

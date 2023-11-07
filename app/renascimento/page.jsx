@@ -6,6 +6,7 @@ import ImageGallery from "@/components/ImageGallery"
 import styles from "@/app/impressionismo/galeria.module.css"
 import Link from "next/link"
 import style from "@/app/renascimento/renas.module.css"
+import { useUserContext } from "@/contexts/user"
 
 
 const fotos = [
@@ -17,6 +18,7 @@ const fotos = [
 
 
 export default function Renascimento() {
+    const { user } = useUserContext();
     return (
         <>
 
@@ -62,9 +64,10 @@ export default function Renascimento() {
 
             <section className={style.img_fundo}>
 
-
+            <div className="n">
                 <h1 className={styles.titulo}>Renascimento</h1>
-
+                <p>{user.name}</p>
+</div>
                 <br></br>
 
                 <p className={styles.fundo_texto}>O renascimento nas artes plásticas, teve início na Itália no século XV, mas se fortaleceu no século XIV.

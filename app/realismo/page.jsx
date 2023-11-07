@@ -6,6 +6,7 @@ import ImageGallery from "@/components/ImageGallery"
 import styles from "@/app/impressionismo/galeria.module.css"
 import style from "@/app/realismo/realismo.module.css"
 import Link from "next/link"
+import { useUserContext } from "@/contexts/user"
 
 
 const fotos = [
@@ -17,6 +18,8 @@ const fotos = [
 
 
 export default function Realismo() {
+
+    const { user } = useUserContext();
     return (
         <>
 
@@ -62,9 +65,10 @@ export default function Realismo() {
 
             <section className={style.img_fundo}>
 
-
+            <div className="n">
                 <h1 className={styles.titulo}>Realismo</h1>
-
+                <p>{user.name}</p>
+                </div>
                 <br></br>
 
                 <p className={styles.fundo_texto}>O realismo foi um movimento literário e artístico que teve início em meados do

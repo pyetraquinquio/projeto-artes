@@ -1,4 +1,4 @@
-import { LoggedUserContext } from "@/contexts/LoggedUserContext";
+import { LoggedUserContext } from "@/contexts/user";
 import {useContext} from "react";
 
 function Header() {

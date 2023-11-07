@@ -150,6 +150,10 @@ font-size: larger;
 color: #C1AA8C;
 }
 
+.nome {
+    margin-top: 17px;
+}
+
 @media only screen and (max-width:800px) {
     .title {
         margin-left: 30%;

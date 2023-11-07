@@ -7,6 +7,7 @@ import styles from "@/app/impressionismo/galeria.module.css"
 import style from "@/app/rococo/rococo.module.css"
 
 import Link from "next/link"
+import { useUserContext } from "@/contexts/user"
 
 
 const fotos = [
@@ -18,6 +19,8 @@ const fotos = [
 
 
 export default function Rococo() {
+
+    const { user } = useUserContext();
     return (
         <>
 
@@ -63,9 +66,10 @@ export default function Rococo() {
 
             <section className={style.img_fundo}>
 
-
+            <div className="n">
                 <h1 className={styles.titulo}>Rococó</h1>
-
+                <p>{user.name}</p>
+</div>
                 <br></br>
 
                 <p className={styles.fundo_texto}>O movimento trás a suavidade e leveza nas cores, caráter intimista, 

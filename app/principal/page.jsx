@@ -2,8 +2,11 @@
 
 import styles from "@/app/principal/parallax.module.css"
 import Link from "next/link";
+import { useUserContext } from "@/contexts/user"
 
 export default function Parallax(){
+    const { user } = useUserContext();
+
 
     return( 
          <>
@@ -14,15 +17,23 @@ export default function Parallax(){
        <br></br>
 
 
-        <p className={styles.movi}>Movimentos Artísticos</p>
+        <h1 className={styles.movi}>Movimentos Artísticos</h1>
+
+        <p className={styles.nome}>{user.name}</p>
 
         <nav>
             <ul>
                 <li>
                     <Link className={styles.strong} href="/sobrenos">Sobre nós</Link>
                 </li>
+
+                <li>
+                    <Link className={styles.strong} href="/login">Log out</Link>
+                </li>
             </ul>
         </nav>
+
+        
         
 
        <br></br>

@@ -7,6 +7,7 @@ import styles from "@/app/impressionismo/galeria.module.css"
 import style from '@/app/sobrenos/sobre.module.css'
 import Link from "next/link";
 //import Login from "../login/page";
+import { useUserContext } from "@/contexts/user"
 
 
 
@@ -35,6 +36,8 @@ const fotos = [
 
 
 export default function SobreNos() {
+
+    const { user } = useUserContext();
     return (
         <>
 
@@ -82,9 +85,9 @@ export default function SobreNos() {
             </nav>
 
             <section className={style.img_fundo}>
-                <div>
+            <div className="n">
                     <h1 className={styles.titulo}>Sobre nós</h1>
-
+                    <p>{user.name}</p>
                 </div>
 
                 <br></br>

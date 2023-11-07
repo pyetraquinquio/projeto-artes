@@ -6,6 +6,7 @@ import ImageGallery from "@/components/ImageGallery"
 import styles from "@/app/impressionismo/galeria.module.css"
 import Link from "next/link";
 //import Login from "../login/page";
+import { useUserContext } from "@/contexts/user"
 
 
 const fotos = [
@@ -17,6 +18,8 @@ const fotos = [
 
 
 export default function Impressionismo() {
+
+    const { user } = useUserContext();
     return (
         <>
 
@@ -62,9 +65,9 @@ export default function Impressionismo() {
 
             <section className={styles.img_fundo}>
 
-                <div>
+            <div className="n">
                     <h1 className={styles.titulo}>Impressionismo</h1>
-
+                    <p>{user.name}</p>
                 </div>
 
                 <br></br>

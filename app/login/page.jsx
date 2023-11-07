@@ -2,7 +2,8 @@
 
 import { useState } from "react"
 import styles from "./loginn.module.css"
-import caminho from "@/components/Button";
+import Link from "next/link";
+
 
 //import LoggedUserProvider from "@/contexts/LoggedUserContext"
 
@@ -29,26 +30,20 @@ export default function Login() {
 
             <div className={styles.div}>
 
-                <h1 className={styles.h1}>Cadastre-se</h1>
+                <h1 className={styles.h1}>Olá, Victor!</h1>
 
-                <br></br>
-                <br></br>
-
-                <label className={styles.label}>Nome:</label>
-                <br></br>
-                <input
-
-                    type="string"
-                    placeholder="Digite seu nome" required
-                    value={name}
-                    onChange={(event) => setName(event.target.value)}
-
-                ></input>
-
-                <br></br>
+             <br></br>
                 <br></br>
 
-                <button onClick={caminho()} className={styles.button}><a href="/principal"></a> Entrar</button>
+            <nav>
+                <ul>
+                    <li>
+                    <Link className={styles.button} href="/principal">Visitar Site</Link>
+                    </li>
+                </ul>
+            </nav>
+               
+               
 
             </div>
 
