@@ -27,7 +27,7 @@ export default function Abstracionismo() {
                     </li>
 
                     <li>
-                        <Link href="/abstracionismo">Abstracionismo</Link>
+                        <Link href="/impressionismo">Impressionismo</Link>
                     </li>
 
                     <li>
@@ -88,6 +88,18 @@ export default function Abstracionismo() {
             <br></br>
 
             <h2 className={styles.h1}>Vídeo Explicativo</h2>
+
+            <br></br>
+            <br></br>
+
+            <div>
+
+                <iframe width="510" height="265" src="/abs/abstracionismovideooficial.mp4"
+                    title="Mapa mental sobre o Abstracionismo" frameborder="0"
+                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+
+            </div>
 
             <br></br>
             <br></br>

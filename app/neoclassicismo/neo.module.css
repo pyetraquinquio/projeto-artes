@@ -1,9 +1,8 @@
 .img_fundo {
-    background-image: url(/roman/img-roman-fundo.jpg);
+    background-image: url(/neo/img-neo-fundo.jpg);
     width: 100%;
     height:200px ;
     background-color: #c8b689ae;
     color: #fff1e6;
     padding: 2rem;
   }
-
