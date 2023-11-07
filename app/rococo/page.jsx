@@ -4,18 +4,20 @@ import ImageGallery from "@/components/ImageGallery"
 //import { LoggedUserProvider } from "@/contexts/LoggedUserContext";
 //import Header from "@/components/Header"
 import styles from "@/app/impressionismo/galeria.module.css"
+import style from "@/app/rococo/rococo.module.css"
+
 import Link from "next/link"
 
 
 const fotos = [
-    { img: '/impressio/img1.png', text: "Edgar Degas foi um pintor impressionista francês, consagrado por suas pinturas femininas, sobretudo pela série das bailarinas e também pelo efeito de movimento retratado em suas obras. Iniciou a tela 'A FAMÍLIA BALLELLI', onde retratou suas primas, sua tia Laura e seu tio Genaro. A obra só foi concluída em 1867." },
-    { img: '/impressio/img2.png', text: "'O ALMOÇO DOS BARQUEIROS': uma obra que saia do lugar comum impressionista. Pierre-Auguste Renoir pintou este quadro entre 1880 e 1881 e chamava atenção a escolha do tema: os subúrbios." },
-    { img: '/impressio/img3.jpg', text: "'DIA DE VERÃO' possui características da pintura impressionista como as pinceladas grossas, Berthe escolheu uma paisagem com duas mulheres num barco, uma cena do cotidiano. Essa obra possui a influência de Éduoard Manet, que se tornou um amigo e cunhado muito intrometido, que decidia tudo sobre as pinturas de Berthe, chegando até mesmo a pintar sobre suas telas, como aconteceu em Menina no Sofá." },
-    { img: '/impressio/img4.png', text: "Mary Cassatt participou do movimento impressionista e rompeu com os padrões acadêmicos, sua pintura mais famosa é 'MENINA EM UMA POLTRONA AZUL', que foi exibida na quarta exposição impressionista." },
+    { img: '/roco/rococo1.png', text: "O BEIJO ROUBADO (1787), Jean-Honoré Fragonard (1732-1806).Este quadro documenta a dolce vita da nobreza. Podemos ver um rapaz roubando um beijo da moça. O detalhe, que se pode ver na imagem aumentada é que o rapaz, ousadamente, usa o pé para pisar e prender o vestido da moça, tentando impedir sua fuga. Degas foi um pintor impressionista francês, consagrado por suas pinturas femininas, sobretudo pela série das bailarinas e também pelo efeito de movimento retratado em suas obras. Iniciou a tela 'A FAMÍLIA BALLELLI', onde retratou suas primas, sua tia Laura e seu tio Genaro. A obra só foi concluída em 1867." },
+    { img: '/roco/rococo2.png', text: "A TERRA (1730), de Nicolas Lancret.Esta tela faz parte de uma série sobre os Quatro Elementos, tema popular durante o século XVII e que frequentemente assumia a forma de representações de figuras envolvidas em tarefas adequadas a cada elemento. Como por exemplo as mulheres com tarefas delicadas, mexendo com flores e cuidando de alimentos; Já os homens com tarefas mais difíceis e que usam mais força, como subir em árvores e cavar a terra." },
+    { img: '/roco/rococo3.png', text: "Este quadro, pintado em 1756 por François Boucher, mostra MADAME DE POMPADOUR não como a amante de Luiz XV, mas como uma intelectual e partidária do Iluminismo. Ela é retratada como se tivesse sido interrompida quando lia um livro, e, a seu lado, a  escrivaninha está repleta, com uma pena de escrever inserida no tinteiro." },
+    { img: '/roco/rococo4.png', text: "Em LA GAMME D'AMOUR, Watteau mostra seu domínio desse estilo ao retratar uma cena amorosa e galante em um jardim. A composição da pintura é notável, pois Watteau consegue criar uma sensação de movimento e fluidez através da disposição das figuras." },
 ]
 
 
-export default function Impressionismo() {
+export default function Rococo() {
     return (
         <>
 
@@ -26,11 +28,15 @@ export default function Impressionismo() {
                     </li>
 
                     <li>
-                        <Link href="/abstracionismo">Abstracionismo</Link>
+                        <Link href="/renascimento">Renascimento</Link>
                     </li>
 
                     <li>
                         <Link href="/barroco">Barroco</Link>
+                    </li>
+
+                    <li>
+                        <Link href="/romantismo">Romantismo</Link>
                     </li>
 
                     <li>
@@ -42,29 +48,29 @@ export default function Impressionismo() {
                     </li>
 
                     <li>
-                        <Link href="/renascimento">Renascimento</Link>
+                        <Link href="/impressionismo">Impressionismo</Link>
                     </li>
 
                     <li>
-                        <Link href="/rococo">Rococo</Link>
+                        <Link href="/abstracionismo">Abstracionismo</Link>
                     </li>
 
                     <li>
-                        <Link href="/Romantismo">Romantismo</Link>
+                        <Link href="/sobrenos">Sobre nós</Link>
                     </li>
                 </ul>
             </nav>
 
-            <section className={styles.img_fundo}>
+            <section className={style.img_fundo}>
 
 
-                <h1 className={styles.titulo}>Impressionismo</h1>
+                <h1 className={styles.titulo}>Rococó</h1>
 
                 <br></br>
 
-                <p className={styles.fundo_texto}>O impressionismo é um movimento artístico francês surgido no final do século XIX.
-                    Artistas impressionistas, como Claude Monet, retrataram paisagens com contornos imprecisos.
-                    “Impressão, nascer do sol”, de Claude Monet, é a obra que deu nome ao movimento impressionista.
+                <p className={styles.fundo_texto}>O movimento trás a suavidade e leveza nas cores, caráter intimista, 
+                linhas e formas sutis e delicadas. Além de retratar os costumes da época e a vida profana da aristocracia, 
+                também eram usados temas ligados à natureza, como plantas, flores delicadas, cascatas de águas e pássaros.
                 </p>
 
             </section>

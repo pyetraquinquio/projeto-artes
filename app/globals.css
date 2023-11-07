@@ -145,9 +145,15 @@ a {
   width: 40%;
   background-color: #ad824bcb;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+iframe {
+ 
+  margin-left: 33%;
 }
 
 

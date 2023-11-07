@@ -1,7 +1,7 @@
 "use client"
 
 import ImageGallery from "@/components/ImageGallery"
-import { LoggedUserProvider } from "@/contexts/LoggedUserContext";
+//import { LoggedUserProvider } from "@/contexts/LoggedUserContext";
 //import Header from "@/components/Header"
 import styles from "@/app/impressionismo/galeria.module.css"
 import Link from "next/link";
@@ -20,26 +20,10 @@ export default function Impressionismo() {
     return (
         <>
 
-            <nav>
+<nav>
                 <ul>
                     <li>
                         <Link href="/principal">Início</Link>
-                    </li>
-
-                    <li>
-                        <Link href="/abstracionismo">Abstracionismo</Link>
-                    </li>
-
-                    <li>
-                        <Link href="/barroco">Barroco</Link>
-                    </li>
-
-                    <li>
-                        <Link href="/neoclassicismo">Neoclassicismo</Link>
-                    </li>
-
-                    <li>
-                        <Link href="/realismo">Realismo</Link>
                     </li>
 
                     <li>
@@ -47,21 +31,40 @@ export default function Impressionismo() {
                     </li>
 
                     <li>
+                        <Link href="/barroco">Barroco</Link>
+                    </li>
+
+                    <li>
+                        <Link href="/romantismo">Romantismo</Link>
+                    </li>
+
+                    <li>
+                        <Link href="/neoclassicismo">Neoclassicismo</Link>
+                    </li>
+
+                    <li>
                         <Link href="/rococo">Rococó</Link>
                     </li>
 
                     <li>
-                        <Link href="/Romantismo">Romantismo</Link>
+                        <Link href="/realismo">Realismo</Link>
+                    </li>
+
+                    <li>
+                        <Link href="/abstracionismo">Abstracionismo</Link>
+                    </li>
+
+                    <li>
+                        <Link href="/sobrenos">Sobre nós</Link>
                     </li>
                 </ul>
             </nav>
-
 
             <section className={styles.img_fundo}>
 
             <div>
                 <h1 className={styles.titulo}>Impressionismo</h1>
-                <LoggedUserProvider/>
+                
                 </div>
 
                 <br></br>

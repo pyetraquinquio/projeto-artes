@@ -4,7 +4,7 @@ export default function caminho(){
     return(
 
     <Link href="/principal"></Link>
-    
 
+    )
 }
 

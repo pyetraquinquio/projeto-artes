@@ -4,6 +4,7 @@ import ImageGallery from "@/components/ImageGallery"
 //import { LoggedUserProvider } from "@/contexts/LoggedUserContext";
 //import Header from "@/components/Header"
 import styles from "@/app/impressionismo/galeria.module.css"
+import style from "@/app/abstracionismo/abs.module.css"
 import Link from "next/link"
 
 
@@ -15,30 +16,14 @@ const fotos = [
 ]
 
 
-export default function Impressionismo() {
+export default function Abstracionismo() {
     return (
         <>
 
-            <nav>
+<nav>
                 <ul>
                     <li>
                         <Link href="/principal">Início</Link>
-                    </li>
-
-                    <li>
-                        <Link href="/abstracionismo">Abstracionismo</Link>
-                    </li>
-
-                    <li>
-                        <Link href="/barroco">Barroco</Link>
-                    </li>
-
-                    <li>
-                        <Link href="/neoclassicismo">Neoclassicismo</Link>
-                    </li>
-
-                    <li>
-                        <Link href="/realismo">Realismo</Link>
                     </li>
 
                     <li>
@@ -46,24 +31,51 @@ export default function Impressionismo() {
                     </li>
 
                     <li>
+                        <Link href="/barroco">Barroco</Link>
+                    </li>
+
+                    <li>
+                        <Link href="/romantismo">Romantismo</Link>
+                    </li>
+
+                    <li>
+                        <Link href="/neoclassicismo">Neoclassicismo</Link>
+                    </li>
+
+
+                    <li>
                         <Link href="/rococo">Rococó</Link>
                     </li>
 
                     <li>
-                        <Link href="/Romantismo">Romantismo</Link>
+                        <Link href="/realismo">Realismo</Link>
+                    </li>
+
+                    <li>
+                        <Link href="/realismo">Impressionismo</Link>
+                    </li>
+
+                    <li>
+                        <Link href="/sobrenos">Sobre nós</Link>
                     </li>
                 </ul>
             </nav>
 
-            <section className={styles.img_fundo}>
+            <section className={style.imgfundo}>
 
 
                 <h1 className={styles.titulo}>Abstracionismo</h1>
 
                 <br></br>
 
+<<<<<<< HEAD
                 <p className={styles.fundo_texto}>O abstracionismo é um estilo artístico moderno das artes visuais que não representa objetos próprios da nossa realidade concreta exterior. 
                 Ao invés disso, usa as relações formais entre cores, linhas e superfícies para compor a realidade da obra, de uma maneira "não representacional".
+=======
+                <p className={style.fundo_texto}>O impressionismo é um movimento artístico francês surgido no final do século XIX.
+                    Artistas impressionistas, como Claude Monet, retrataram paisagens com contornos imprecisos.
+                    “Impressão, nascer do sol”, de Claude Monet, é a obra que deu nome ao movimento impressionista.
+>>>>>>> 7bd6cc5873fed16bd0413001b63c22335268339b
                 </p>
 
             </section>
@@ -82,6 +94,18 @@ export default function Impressionismo() {
             <br></br>
 
             <h2 className={styles.h1}>Vídeo Explicativo</h2>
+
+            <br></br>
+            <br></br>
+
+            <div>
+
+                <iframe width="510" height="265" src="/abs/abstracionismovideooficial.mp4"
+                    title="Mapa mental sobre o Abstracionismo" frameborder="0"
+                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+
+            </div>
 
             <br></br>
             <br></br>
