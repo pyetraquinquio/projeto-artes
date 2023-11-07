@@ -4,6 +4,7 @@ import ImageGallery from "@/components/ImageGallery"
 //import { LoggedUserProvider } from "@/contexts/LoggedUserContext";
 //import Header from "@/components/Header"
 import styles from "@/app/impressionismo/galeria.module.css"
+import style from '@/app/sobrenos/sobre.module.css'
 import Link from "next/link";
 //import Login from "../login/page";
 
@@ -68,7 +69,7 @@ export default function Impressionismo() {
             </nav>
 
 
-            <section className={styles.img_fundo}>
+            <section className={style.img_fundo}>
 
             <div>
                 <h1 className={styles.titulo}>Sobre nós</h1>
