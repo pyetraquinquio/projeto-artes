@@ -10,7 +10,7 @@ import { useUserContext } from "@/contexts/user"
 
 
 const fotos = [
-    { img: '/renas/renascimento111.jpg', text: "Edgar Degas foi um pintor impressionista francês, consagrado por suas pinturas femininas, sobretudo pela série das bailarinas e também pelo efeito de movimento retratado em suas obras. Iniciou a tela 'A FAMÍLIA BALLELLI', onde retratou suas primas, sua tia Laura e seu tio Genaro. A obra só foi concluída em 1867." },
+    { img: '/renas/renas1.png', text: "A obra 'A Primavera' (1482), também conhecido como Alegoria da Primavera, é um quadro do pintor Sandro Botticelli. A pintura utiliza a técnica de têmpera sobre madeira. O quadro retrata a alegoria da chegada dessa estação. " },
     { img: '/renas/renascimento6.jpg', text: "Mary Cassatt participou do movimento impressionista e rompeu com os padrões acadêmicos, sua pintura mais famosa é 'MENINA EM UMA POLTRONA AZUL', que foi exibida na quarta exposição impressionista." },
     { img: '/renas/renascimento3.jpg', text: "'O ALMOÇO DOS BARQUEIROS': uma obra que saia do lugar comum impressionista. Pierre-Auguste Renoir pintou este quadro entre 1880 e 1881 e chamava atenção a escolha do tema: os subúrbios." },
     { img: '/renas/renascimento1.jpg', text: "O Nascimento de Vênus O quadro O nascimento de Vénus, pintado por Sandro Botticelli em 1482, faz parte, em conjunto com a tela A Alegoria da primavera realizada entre 1477 e 1478, de uma encomenda de Lorenzo di Pier Francesco, primo do influente Lourenço de Medicis, o Magnífico, que as queria colocar numa das Villas da família."},
@@ -24,6 +24,7 @@ export default function Renascimento() {
 
 <nav>
                 <ul>
+                    
                     <li>
                         <Link href="/principal">Início</Link>
                     </li>
