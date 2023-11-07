@@ -162,6 +162,25 @@ iframe {
   html {
     color-scheme: dark;
   }
+
+  iframe {
+    margin-left: 17%;
+  }
+
+  ul {
+    justify-content: space-between;
+  }
+
+  li {
+    font-size: xx-small;
+  }
+
+  .descricao {
+    font-size: large;
+    padding: 1rem;
+    margin-top: 17%;
+    margin-bottom: 24.2%;
+  }
 } 
 
 

@@ -67,17 +67,11 @@ export default function Barroco() {
 
                 <br></br>
 
-<<<<<<< HEAD
                 <p className={styles.fundo_texto}>O barroco nas artes plásticas, foi um movimento artístico que surgiu na Itália 
                 no final do século XVI em decorrência as reformas protestantes e se espalhou pelos demais países da Europa. 
                 Caracteriza-se pelo culto ao contraste e à oposição, morbidez e agressividade,
                  exagero nos detalhes e há uma presença forte de luz e sombra.
-=======
-                <p className={styles.fundo_texto}>O barroco é um movimento artístico que compreende múltiplas manifestações 
-                artísticas — literatura, pintura, arquitetura, música — produzidas entre o final do século XVI e o 
-                início do século XVIII.
->>>>>>> 7bd6cc5873fed16bd0413001b63c22335268339b
-                </p>
+               </p>
 
             </section>
 
