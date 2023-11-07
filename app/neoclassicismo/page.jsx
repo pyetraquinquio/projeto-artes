@@ -93,7 +93,7 @@ export default function Neo() {
 
             <div>
 
-                <iframe width="510" height="265" src="/neo/neoclassicismo.mp4"
+                <iframe width="510" height="265" src="/neo/NEOCLASSICISMO.mp4"
                     title="Mapa mental sobre o Neoclassicismo" frameborder="0"
                     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen></iframe>
