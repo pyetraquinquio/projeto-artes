@@ -39,27 +39,10 @@ export default function SobreNos() {
         <>
 
 
-            <nav>
-
+<nav>
                 <ul>
                     <li>
                         <Link href="/principal">Início</Link>
-                    </li>
-
-                    <li>
-                        <Link href="/abstracionismo">Abstracionismo</Link>
-                    </li>
-
-                    <li>
-                        <Link href="/barroco">Barroco</Link>
-                    </li>
-
-                    <li>
-                        <Link href="/neoclassicismo">Neoclassicismo</Link>
-                    </li>
-
-                    <li>
-                        <Link href="/realismo">Realismo</Link>
                     </li>
 
                     <li>
@@ -67,9 +50,13 @@ export default function SobreNos() {
                     </li>
 
                     <li>
+<<<<<<< HEAD
+                        <Link href="/barroco">Barroco</Link>
+=======
 
                         <Link href="/rococo">Rococó</Link>
 
+>>>>>>> ff1e04a715c9e3a9709f0546ac256c0057ef735b
                     </li>
 
                     <li>
@@ -77,12 +64,27 @@ export default function SobreNos() {
                     </li>
 
                     <li>
+                        <Link href="/neoclassicismo">Neoclassicismo</Link>
+                    </li>
 
+                    <li>
+                        <Link href="/rococo">Rococó</Link>
+                    </li>
+
+                    <li>
+                        <Link href="/realismo">Realismo</Link>
+                    </li>
+
+                    <li>
                         <Link href="/impressionismo">Impressionismo</Link>
                     </li>
+
+                    <li>
+                        <Link href="/abstracionismo">Abstracionismo</Link>
+                    </li>
+
                 </ul>
             </nav>
-
 
             <section className={style.img_fundo}>
                 <div>
