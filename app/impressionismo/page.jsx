@@ -98,7 +98,7 @@ export default function Impressionismo() {
 
                 <iframe width="510" height="265" src="/impressio/impressionismo.mp4"
                     title="Mapa mental sobre o Impressionismo" frameborder="0"
-                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;"
                     allowfullscreen></iframe>
 
             </div>
