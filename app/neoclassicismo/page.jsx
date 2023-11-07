@@ -35,7 +35,7 @@ export default function Neo() {
                     </li>
 
                     <li>
-                        <Link href="/neoclassicismo">Neoclassicismo</Link>
+                        <Link href="/neoclassicismo">Impressionismo</Link>
                     </li>
 
                     <li>
