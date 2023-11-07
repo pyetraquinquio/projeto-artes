@@ -4,13 +4,10 @@ import ImageGallery from "@/components/ImageGallery"
 //import { LoggedUserProvider } from "@/contexts/LoggedUserContext";
 //import Header from "@/components/Header"
 import styles from "@/app/impressionismo/galeria.module.css"
-<<<<<<< HEAD
 import style from '@/app/sobrenos/sobre.module.css'
 import Link from "next/link";
 //import Login from "../login/page";
-=======
 import Link from "next/link"
->>>>>>> 995e6f8680db3fd30fe7f3881d24d934c7707157
 
 
 const fotos = [
@@ -86,13 +83,8 @@ export default function SobreNos() {
                 </ul>
             </nav>
 
-<<<<<<< HEAD
 
             <section className={style.img_fundo}>
-=======
-            <section className={styles.img_fundo}>
->>>>>>> 995e6f8680db3fd30fe7f3881d24d934c7707157
-
                 <div>
                     <h1 className={styles.titulo}>Sobre nós</h1>
 
