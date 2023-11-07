@@ -56,7 +56,7 @@ export default function Rococo() {
                     </li>
 
                     <li>
-                        <Link href="/sobrenos">Sobre nós</Link>
+                        <Link href="/sobrenos">Equipe</Link>
                     </li>
                 </ul>
             </nav>
@@ -89,6 +89,18 @@ export default function Rococo() {
             <br></br>
 
             <h2 className={styles.h1}>Vídeo Explicativo</h2>
+
+            <br></br>
+            <br></br>
+
+            <div>
+
+                <iframe width="510" height="265" src="/roco/rococo.mp4"
+                    title="Mapa mental sobre o Rococó" frameborder="0"
+                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+
+            </div>
 
             <br></br>
             <br></br>
