@@ -51,7 +51,11 @@ export default function Impressionismo() {
                     </li>
 
                     <li>
-                        <Link href="/Romantismo">Romantismo</Link>
+                        <Link href="/romantismo">Romantismo</Link>
+                    </li>
+
+                    <li>
+                        <Link href="/sobrenos">Sobre nós</Link>
                     </li>
 
                     <li>

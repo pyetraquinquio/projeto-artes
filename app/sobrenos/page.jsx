@@ -4,31 +4,46 @@ import ImageGallery from "@/components/ImageGallery"
 //import { LoggedUserProvider } from "@/contexts/LoggedUserContext";
 //import Header from "@/components/Header"
 import styles from "@/app/impressionismo/galeria.module.css"
+<<<<<<< HEAD
 import style from '@/app/sobrenos/sobre.module.css'
 import Link from "next/link";
 //import Login from "../login/page";
+=======
+import Link from "next/link"
+>>>>>>> 995e6f8680db3fd30fe7f3881d24d934c7707157
 
 
 const fotos = [
-    { img: '/integrantes/pyh.jpg',
-     text: "Pyetra tem a posição de leader no grupo, tem 16 anos e seu tempo de estudo no SESI é de 10 anos." },
+    {
+        img: '/integrantes/pyh.jpg',
+        text: "Pyetra tem a posição de leader no grupo, tem 16 anos e seu tempo de estudo no SESI é de 10 anos."
+    },
 
-    { img: '/integrantes/emily.png', 
-    text: "Emily tem a posição de sub-leader no grupo, tem 17 anos e seu tempo de estudo no SESI é de 9 meses." },
-    
-    { img: '/integrantes/maria.jpg', 
-    text: "Maria Eduarda tem 17 anos e seu tempo de estudo no SESI é de 9 meses. Teve a sua participação nesse projeto como editora." },
-    
-    { img: '/integrantes/gaby.png', 
-    text: "Gabrielly tem 16 anos e seu tempo de estudo no SESI é de 10 anos. Teve a sua participação nesse projeto como editora." },
+    {
+        img: '/integrantes/emily.png',
+        text: "Emily tem a posição de sub-leader no grupo, tem 17 anos e seu tempo de estudo no SESI é de 9 meses."
+    },
+
+    {
+        img: '/integrantes/maria.jpg',
+        text: "Maria Eduarda tem 17 anos e seu tempo de estudo no SESI é de 9 meses. Teve a sua participação nesse projeto como editora."
+    },
+
+    {
+        img: '/integrantes/gaby.png',
+        text: "Gabrielly tem 16 anos e seu tempo de estudo no SESI é de 10 anos. Teve a sua participação nesse projeto como editora."
+    },
+
 ]
 
 
-export default function Impressionismo() {
+export default function SobreNos() {
     return (
         <>
 
+
             <nav>
+
                 <ul>
                     <li>
                         <Link href="/principal">Início</Link>
@@ -55,7 +70,9 @@ export default function Impressionismo() {
                     </li>
 
                     <li>
-                        <Link href="/rococo">Rococó</Link>
+
+                        <Link href="/rococo">Rococo</Link>
+
                     </li>
 
                     <li>
@@ -63,23 +80,29 @@ export default function Impressionismo() {
                     </li>
 
                     <li>
+
                         <Link href="/impressionismo">Impressionismo</Link>
                     </li>
                 </ul>
             </nav>
 
+<<<<<<< HEAD
 
             <section className={style.img_fundo}>
+=======
+            <section className={styles.img_fundo}>
+>>>>>>> 995e6f8680db3fd30fe7f3881d24d934c7707157
 
-            <div>
-                <h1 className={styles.titulo}>Sobre nós</h1>
-                
+                <div>
+                    <h1 className={styles.titulo}>Sobre nós</h1>
+
                 </div>
 
                 <br></br>
 
                 <p className={styles.fundo_texto}>Nós somos o Grupo 05 e estamos fazendo esse projeto em colaboração do SENAI com a disciplina de Artes do SESI.
-                   O projeto tem o propósito de navegar em uma galeria dos movimentos artísticos.
+                    O projeto tem o propósito de navegar em uma galeria dos movimentos artísticos.
+
                 </p>
 
             </section>
@@ -87,7 +110,9 @@ export default function Impressionismo() {
             <br></br>
             <br></br>
 
+
             <h2 className={styles.h2}>Integrantes</h2>
+
 
             <br></br>
             <br></br>
@@ -98,6 +123,7 @@ export default function Impressionismo() {
             <br></br>
 
 
+
             <footer>
                 <h2>Grupo 05</h2>
                 <h2>SESI SENAI</h2>
@@ -106,4 +132,4 @@ export default function Impressionismo() {
 
         </>
     );
-}
+};

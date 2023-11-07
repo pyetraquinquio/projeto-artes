@@ -4,18 +4,19 @@ import ImageGallery from "@/components/ImageGallery"
 //import { LoggedUserProvider } from "@/contexts/LoggedUserContext";
 //import Header from "@/components/Header"
 import styles from "@/app/impressionismo/galeria.module.css"
+import style from "@/app/romantismo/roman.module.css"
 import Link from "next/link"
 
 
 const fotos = [
-    { img: '/impressio/img1.png', text: "Edgar Degas foi um pintor impressionista francês, consagrado por suas pinturas femininas, sobretudo pela série das bailarinas e também pelo efeito de movimento retratado em suas obras. Iniciou a tela 'A FAMÍLIA BALLELLI', onde retratou suas primas, sua tia Laura e seu tio Genaro. A obra só foi concluída em 1867." },
-    { img: '/impressio/img2.png', text: "'O ALMOÇO DOS BARQUEIROS': uma obra que saia do lugar comum impressionista. Pierre-Auguste Renoir pintou este quadro entre 1880 e 1881 e chamava atenção a escolha do tema: os subúrbios." },
-    { img: '/impressio/img3.jpg', text: "'DIA DE VERÃO' possui características da pintura impressionista como as pinceladas grossas, Berthe escolheu uma paisagem com duas mulheres num barco, uma cena do cotidiano. Essa obra possui a influência de Éduoard Manet, que se tornou um amigo e cunhado muito intrometido, que decidia tudo sobre as pinturas de Berthe, chegando até mesmo a pintar sobre suas telas, como aconteceu em Menina no Sofá." },
-    { img: '/impressio/img4.png', text: "Mary Cassatt participou do movimento impressionista e rompeu com os padrões acadêmicos, sua pintura mais famosa é 'MENINA EM UMA POLTRONA AZUL', que foi exibida na quarta exposição impressionista." },
+    { img: '/roman/romantismo1.png', text: "A obra 'Adoração dos Magos' (1828), é uma pintura romântica de Domingos Sequeira, que possui um verdadeiro testamento artístico, expressando as preocupações sobre a cor, a luz, a forma e também a busca da tradição clássica e o romantismo." },
+    { img: '/roman/romantismo2.png', text: "A obra 'Liberdade guiando o povo', de Eugène Delacroix (1789-1863), é uma pintura que retrata a Revolução de 1830, um importante acontecimento histórico ocorrido na França no mesmo ano em que a obra foi realizada." },
+    { img: '/roman/romantismo3.png', text: "A obra 'Iracema' (1884), de obra de José Maria de Medeiros (1849-1925), pode ser uma amostragem da proposta temática então presente na mentalidade artística do Brasil Imperial. A tela participou da famosa Exposição Geral de 1884, da Academia Imperial de Belas Artes." },
+    { img: '/roman/romantismo4.png', text: "A obra 'Moça com Livro' (1880), de José Ferraz de Almeida Júnior (1850-1899), foi uma pintura do romantismo brasileiro." },
 ]
 
 
-export default function Impressionismo() {
+export default function Romantismo() {
     return (
         <>
 
@@ -46,25 +47,28 @@ export default function Impressionismo() {
                     </li>
 
                     <li>
-                        <Link href="/rococo">Rococo</Link>
+                        <Link href="/rococo">Rococó</Link>
                     </li>
 
                     <li>
-                        <Link href="/Romantismo">Romantismo</Link>
+                        <Link href="/impressionismo">Impressionismo</Link>
+                    </li>
+
+                    <li>
+                        <Link href="/sobrenos">Sobre nós</Link>
                     </li>
                 </ul>
             </nav>
 
-            <section className={styles.img_fundo}>
+            <section className={style.img_fundo}>
 
 
-                <h1 className={styles.titulo}>Impressionismo</h1>
+                <h1 className={styles.titulo}>Romantismo</h1>
 
                 <br></br>
 
-                <p className={styles.fundo_texto}>O impressionismo é um movimento artístico francês surgido no final do século XIX.
-                    Artistas impressionistas, como Claude Monet, retrataram paisagens com contornos imprecisos.
-                    “Impressão, nascer do sol”, de Claude Monet, é a obra que deu nome ao movimento impressionista.
+                <p className={styles.fundo_texto}>O romantismo é um movimento artístico e cultural que apresenta uma visão de mundo centrada no ser humano com destaque para as sensações humanas e a liberdade de pensamento.
+Surgiu na Europa no século XVIII durante a revolução industrial e do iluminismo e durou até o século XIX.
                 </p>
 
             </section>
