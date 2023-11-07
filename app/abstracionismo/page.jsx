@@ -27,25 +27,6 @@ export default function Abstracionismo() {
                     </li>
 
                     <li>
-<<<<<<< HEAD
-=======
-                        <Link href="/impressionismo">Impressionismo</Link>
-                    </li>
-
-                    <li>
-                        <Link href="/barroco">Barroco</Link>
-                    </li>
-
-                    <li>
-                        <Link href="/neoclassicismo">Neoclassicismo</Link>
-                    </li>
-
-                    <li>
-                        <Link href="/realismo">Realismo</Link>
-                    </li>
-
-                    <li>
->>>>>>> ff1e04a715c9e3a9709f0546ac256c0057ef735b
                         <Link href="/renascimento">Renascimento</Link>
                     </li>
 
@@ -60,6 +41,7 @@ export default function Abstracionismo() {
                     <li>
                         <Link href="/neoclassicismo">Neoclassicismo</Link>
                     </li>
+
 
                     <li>
                         <Link href="/rococo">Rococó</Link>
