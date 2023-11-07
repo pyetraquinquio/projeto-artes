@@ -26,7 +26,7 @@ export default function Neo() {
                     </li>
 
                     <li>
-                        <Link href="/abstracionismo">Abstracionismo</Link>
+                        <Link href="/renascimento">Renascimento</Link>
                     </li>
 
                     <li>
@@ -34,15 +34,7 @@ export default function Neo() {
                     </li>
 
                     <li>
-                        <Link href="/neoclassicismo">Neoclassicismo</Link>
-                    </li>
-
-                    <li>
-                        <Link href="/realismo">Realismo</Link>
-                    </li>
-
-                    <li>
-                        <Link href="/renascimento">Renascimento</Link>
+                        <Link href="/romantismo">Romantismo</Link>
                     </li>
 
                     <li>
@@ -50,7 +42,15 @@ export default function Neo() {
                     </li>
 
                     <li>
-                        <Link href="/romantismo">Romantismo</Link>
+                        <Link href="/realismo">Realismo</Link>
+                    </li>
+
+                    <li>
+                        <Link href="/realismo">Impressionismo</Link>
+                    </li>
+
+                    <li>
+                        <Link href="/abstracionismo">Abstracionismo</Link>
                     </li>
 
                     <li>

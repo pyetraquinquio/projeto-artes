@@ -20,26 +20,10 @@ export default function Abstracionismo() {
     return (
         <>
 
-            <nav>
+<nav>
                 <ul>
                     <li>
                         <Link href="/principal">Início</Link>
-                    </li>
-
-                    <li>
-                        <Link href="/abstracionismo">Abstracionismo</Link>
-                    </li>
-
-                    <li>
-                        <Link href="/barroco">Barroco</Link>
-                    </li>
-
-                    <li>
-                        <Link href="/neoclassicismo">Neoclassicismo</Link>
-                    </li>
-
-                    <li>
-                        <Link href="/realismo">Realismo</Link>
                     </li>
 
                     <li>
@@ -47,11 +31,27 @@ export default function Abstracionismo() {
                     </li>
 
                     <li>
-                        <Link href="/rococo">Rococó</Link>
+                        <Link href="/barroco">Barroco</Link>
                     </li>
 
                     <li>
                         <Link href="/romantismo">Romantismo</Link>
+                    </li>
+
+                    <li>
+                        <Link href="/neoclassicismo">Neoclassicismo</Link>
+                    </li>
+
+                    <li>
+                        <Link href="/rococo">Rococó</Link>
+                    </li>
+
+                    <li>
+                        <Link href="/realismo">Realismo</Link>
+                    </li>
+
+                    <li>
+                        <Link href="/realismo">Impressionismo</Link>
                     </li>
 
                     <li>

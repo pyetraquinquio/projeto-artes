@@ -28,9 +28,16 @@ export default function Rococo() {
                     </li>
 
                     <li>
-                        <Link href="/abstracionismo">Abstracionismo</Link>
+                        <Link href="/renascimento">Renascimento</Link>
                     </li>
 
+                    <li>
+                        <Link href="/barroco">Barroco</Link>
+                    </li>
+
+                    <li>
+                        <Link href="/romantismo">Romantismo</Link>
+                    </li>
 
                     <li>
                         <Link href="/neoclassicismo">Neoclassicismo</Link>
@@ -41,15 +48,11 @@ export default function Rococo() {
                     </li>
 
                     <li>
-                        <Link href="/renascimento">Renascimento</Link>
+                        <Link href="/impressionismo">Impressionismo</Link>
                     </li>
 
                     <li>
-                        <Link href="/barroco">Barroco</Link>
-                    </li>
-
-                    <li>
-                        <Link href="/romantismo">Romantismo</Link>
+                        <Link href="/abstracionismo">Abstracionismo</Link>
                     </li>
 
                     <li>

@@ -26,11 +26,11 @@ export default function Impressionismo() {
                     </li>
 
                     <li>
-                        <Link href="/abstracionismo">Abstracionismo</Link>
+                        <Link href="/barroco">Barroco</Link>
                     </li>
 
                     <li>
-                        <Link href="/barroco">Barroco</Link>
+                        <Link href="/romantismo">Romantismo</Link>
                     </li>
 
                     <li>
@@ -38,19 +38,19 @@ export default function Impressionismo() {
                     </li>
 
                     <li>
+                        <Link href="/rococo">Rococó</Link>
+                    </li>
+
+                    <li>
                         <Link href="/realismo">Realismo</Link>
                     </li>
 
                     <li>
-                        <Link href="/renascimento">Renascimento</Link>
+                        <Link href="/realismo">Impressionismo</Link>
                     </li>
 
                     <li>
-                        <Link href="/rococo">Rococo</Link>
-                    </li>
-
-                    <li>
-                        <Link href="/romantismo">Romantismo</Link>
+                        <Link href="/abstracionismo">Abstracionismo</Link>
                     </li>
 
                     <li>

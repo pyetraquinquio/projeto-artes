@@ -9,10 +9,10 @@ import Link from "next/link"
 
 
 const fotos = [
-    { img: '/rea/realismo1.png', text: "Edgar Degas foi um pintor impressionista francês, consagrado por suas pinturas femininas, sobretudo pela série das bailarinas e também pelo efeito de movimento retratado em suas obras. Iniciou a tela 'A FAMÍLIA BALLELLI', onde retratou suas primas, sua tia Laura e seu tio Genaro. A obra só foi concluída em 1867." },
-    { img: '/rea/realismo2.png', text: "'O ALMOÇO DOS BARQUEIROS': uma obra que saia do lugar comum impressionista. Pierre-Auguste Renoir pintou este quadro entre 1880 e 1881 e chamava atenção a escolha do tema: os subúrbios." },
-    { img: '/rea/realismo3.jpg', text: "'DIA DE VERÃO' possui características da pintura impressionista como as pinceladas grossas, Berthe escolheu uma paisagem com duas mulheres num barco, uma cena do cotidiano. Essa obra possui a influência de Éduoard Manet, que se tornou um amigo e cunhado muito intrometido, que decidia tudo sobre as pinturas de Berthe, chegando até mesmo a pintar sobre suas telas, como aconteceu em Menina no Sofá." },
-    { img: '/rea/realismo4.jpg', text: "Mary Cassatt participou do movimento impressionista e rompeu com os padrões acadêmicos, sua pintura mais famosa é 'MENINA EM UMA POLTRONA AZUL', que foi exibida na quarta exposição impressionista." },
+    { img: '/rea/realismo1.png', text: "O HOMEM DESESPERADO (1843 e 1845). Ao invés de mostrar um retrato, tradicionalmente vertical, Courbet usa o formato de paisagem (retangular e horizontal), que cria um espaço maior para a abertura dos braços, envoltos por uma camisa branca, em seu gestual aflitivo." },
+    { img: '/rea/realismo2.png', text: "ANGELUS(1857-1859) de Jean-François Millet mostra dois camponeses rezando, agradecendo pela colheita obtida através do suor e do esforço de muitos dias. Ele de cabeça baixa, segurando o chapéu, ela leva as mãos ao peito num sinal de devoção. A obra foi feita com tons escuros e recursos de sombreamento, o que tornam o momento da oração ainda mais profundo." },
+    { img: '/rea/realismo3.png', text: "ALMOÇO NA RELVA (1863) de Édouard Manet. Uma mulher nua está sentada numa clareira, displicentemente, fazendo um piquenique com dois rapazes galantes, vestidos com trajes da época." },
+    { img: '/rea/realismo4.png', text: "O VIOLEIRO (1899) de Almeida Júnior. Com o ciclo de pinturas “caipiras”, deslocou o foco da busca pela definição do “tipo nacional” para um contexto mais regional, ao dotar a representação do camponês do interior da província com a nobreza da pintura histórica brasileira." },
 ]
 
 
@@ -20,26 +20,10 @@ export default function Realismo() {
     return (
         <>
 
-            <nav>
+<nav>
                 <ul>
                     <li>
                         <Link href="/principal">Início</Link>
-                    </li>
-
-                    <li>
-                        <Link href="/abstracionismo">Abstracionismo</Link>
-                    </li>
-
-                    <li>
-                        <Link href="/barroco">Barroco</Link>
-                    </li>
-
-                    <li>
-                        <Link href="/neoclassicismo">Neoclassicismo</Link>
-                    </li>
-
-                    <li>
-                        <Link href="/realismo">Impressionismo</Link>
                     </li>
 
                     <li>
@@ -47,11 +31,27 @@ export default function Realismo() {
                     </li>
 
                     <li>
-                        <Link href="/rococo">Rococó</Link>
+                        <Link href="/barroco">Barroco</Link>
                     </li>
 
                     <li>
                         <Link href="/romantismo">Romantismo</Link>
+                    </li>
+
+                    <li>
+                        <Link href="/neoclassicismo">Neoclassicismo</Link>
+                    </li>
+
+                    <li>
+                        <Link href="/rococo">Rococó</Link>
+                    </li>
+
+                    <li>
+                        <Link href="/impressionismo">Impressionismo</Link>
+                    </li>
+
+                    <li>
+                        <Link href="/abstracionismo">Abstracionismo</Link>
                     </li>
 
                     <li>
