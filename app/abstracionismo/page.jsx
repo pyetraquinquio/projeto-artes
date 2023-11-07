@@ -68,15 +68,8 @@ export default function Abstracionismo() {
 
                 <br></br>
 
-<<<<<<< HEAD
                 <p className={styles.fundo_texto}>O abstracionismo é um estilo artístico moderno das artes visuais que não representa objetos próprios da nossa realidade concreta exterior. 
-                Ao invés disso, usa as relações formais entre cores, linhas e superfícies para compor a realidade da obra, de uma maneira "não representacional".
-=======
-                <p className={style.fundo_texto}>O impressionismo é um movimento artístico francês surgido no final do século XIX.
-                    Artistas impressionistas, como Claude Monet, retrataram paisagens com contornos imprecisos.
-                    “Impressão, nascer do sol”, de Claude Monet, é a obra que deu nome ao movimento impressionista.
->>>>>>> 7bd6cc5873fed16bd0413001b63c22335268339b
-                </p>
+                Ao invés disso, usa as relações formais entre cores, linhas e superfícies para compor a realidade da obra, de uma maneira "não representacional".</p>
 
             </section>
 
