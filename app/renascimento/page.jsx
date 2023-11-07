@@ -5,6 +5,7 @@ import ImageGallery from "@/components/ImageGallery"
 //import Header from "@/components/Header"
 import styles from "@/app/impressionismo/galeria.module.css"
 import Link from "next/link"
+import style from "@/app/renascimento/renas.module.css"
 
 
 const fotos = [
@@ -59,7 +60,7 @@ export default function Renascimento() {
                 </ul>
             </nav>
 
-            <section className={styles.img_fundo}>
+            <section className={style.img_fundo}>
 
 
                 <h1 className={styles.titulo}>Renascimento</h1>
