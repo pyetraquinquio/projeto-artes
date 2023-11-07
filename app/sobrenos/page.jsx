@@ -7,7 +7,7 @@ import styles from "@/app/impressionismo/galeria.module.css"
 import style from '@/app/sobrenos/sobre.module.css'
 import Link from "next/link";
 //import Login from "../login/page";
-import Link from "next/link"
+
 
 
 const fotos = [
