@@ -27,7 +27,7 @@ export default function Romantismo() {
                     </li>
 
                     <li>
-                        <Link href="/abstracionismo">Abstracionismo</Link>
+                        <Link href="/renascimento">Renascimento</Link>
                     </li>
 
                     <li>
@@ -39,19 +39,19 @@ export default function Romantismo() {
                     </li>
 
                     <li>
-                        <Link href="/realismo">Realismo</Link>
-                    </li>
-
-                    <li>
-                        <Link href="/renascimento">Renascimento</Link>
-                    </li>
-
-                    <li>
                         <Link href="/rococo">Rococó</Link>
                     </li>
 
                     <li>
+                        <Link href="/realismo">Realismo</Link>
+                    </li>
+
+                    <li>
                         <Link href="/impressionismo">Impressionismo</Link>
+                    </li>
+
+                    <li>
+                        <Link href="/abstracionismo">Abstracionismo</Link>
                     </li>
 
                     <li>
@@ -68,7 +68,7 @@ export default function Romantismo() {
                 <br></br>
 
                 <p className={styles.fundo_texto}>O romantismo é um movimento artístico e cultural que apresenta uma visão de mundo centrada no ser humano com destaque para as sensações humanas e a liberdade de pensamento.
-Surgiu na Europa no século XVIII durante a revolução industrial e do iluminismo e durou até o século XIX.
+                  Surgiu na Europa no século XVIII durante a revolução industrial e do iluminismo e durou até o século XIX.
                 </p>
 
             </section>
@@ -87,6 +87,18 @@ Surgiu na Europa no século XVIII durante a revolução industrial e do iluminis
             <br></br>
 
             <h2 className={styles.h1}>Vídeo Explicativo</h2>
+
+            <br></br>
+            <br></br>
+
+            <div>
+
+                <iframe width="510" height="265" src="/roman/video-roman.mp4"
+                title="Mapa mental sobre o Romantismo" frameborder="0"
+                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+
+            </div>
 
             <br></br>
             <br></br>

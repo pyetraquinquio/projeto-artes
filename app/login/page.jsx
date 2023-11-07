@@ -48,7 +48,7 @@ export default function Login() {
                 <br></br>
                 <br></br>
 
-                <button onClick={caminho()} className={styles.button}> Entrar</button>
+                <button onClick={caminho()} className={styles.button}><a href="/principal"></a> Entrar</button>
 
             </div>
 

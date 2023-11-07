@@ -28,9 +28,16 @@ export default function Rococo() {
                     </li>
 
                     <li>
-                        <Link href="/abstracionismo">Abstracionismo</Link>
+                        <Link href="/renascimento">Renascimento</Link>
                     </li>
 
+                    <li>
+                        <Link href="/barroco">Barroco</Link>
+                    </li>
+
+                    <li>
+                        <Link href="/romantismo">Romantismo</Link>
+                    </li>
 
                     <li>
                         <Link href="/neoclassicismo">Neoclassicismo</Link>
@@ -41,15 +48,11 @@ export default function Rococo() {
                     </li>
 
                     <li>
-                        <Link href="/renascimento">Renascimento</Link>
+                        <Link href="/impressionismo">Impressionismo</Link>
                     </li>
 
                     <li>
-                        <Link href="/barroco">Barroco</Link>
-                    </li>
-
-                    <li>
-                        <Link href="/romantismo">Romantismo</Link>
+                        <Link href="/abstracionismo">Abstracionismo</Link>
                     </li>
 
                     <li>
@@ -65,9 +68,9 @@ export default function Rococo() {
 
                 <br></br>
 
-                <p className={styles.fundo_texto}>O impressionismo é um movimento artístico francês surgido no final do século XIX.
-                    Artistas impressionistas, como Claude Monet, retrataram paisagens com contornos imprecisos.
-                    “Impressão, nascer do sol”, de Claude Monet, é a obra que deu nome ao movimento impressionista.
+                <p className={styles.fundo_texto}>O movimento trás a suavidade e leveza nas cores, caráter intimista, 
+                linhas e formas sutis e delicadas. Além de retratar os costumes da época e a vida profana da aristocracia, 
+                também eram usados temas ligados à natureza, como plantas, flores delicadas, cascatas de águas e pássaros.
                 </p>
 
             </section>

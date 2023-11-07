@@ -14,8 +14,16 @@ export default function Parallax(){
        <br></br>
 
 
-        <p className={styles.strong}>Movimentos Artísticos</p>
-        <Link className={styles.strong} href="/sobrenos">Sobre nós</Link>
+        <p className={styles.movi}>Movimentos Artísticos</p>
+
+        <nav>
+            <ul>
+                <li>
+                    <Link className={styles.strong} href="/sobrenos">Sobre nós</Link>
+                </li>
+            </ul>
+        </nav>
+        
 
        <br></br>
        <br></br>
@@ -100,7 +108,13 @@ export default function Parallax(){
        <br></br>
        <br></br>
     </div> 
+
        
+            <footer>
+                <h2>Grupo 05</h2>
+                <h2>SESI SENAI</h2>
+                <h2>2023</h2>
+            </footer>
 
         </>
     );
