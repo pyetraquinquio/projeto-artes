@@ -8,10 +8,10 @@ import Link from "next/link"
 
 
 const fotos = [
-    { img: '/impressio/img1.png', text: "Edgar Degas foi um pintor impressionista francês, consagrado por suas pinturas femininas, sobretudo pela série das bailarinas e também pelo efeito de movimento retratado em suas obras. Iniciou a tela 'A FAMÍLIA BALLELLI', onde retratou suas primas, sua tia Laura e seu tio Genaro. A obra só foi concluída em 1867." },
-    { img: '/impressio/img2.png', text: "'O ALMOÇO DOS BARQUEIROS': uma obra que saia do lugar comum impressionista. Pierre-Auguste Renoir pintou este quadro entre 1880 e 1881 e chamava atenção a escolha do tema: os subúrbios." },
-    { img: '/impressio/img3.jpg', text: "'DIA DE VERÃO' possui características da pintura impressionista como as pinceladas grossas, Berthe escolheu uma paisagem com duas mulheres num barco, uma cena do cotidiano. Essa obra possui a influência de Éduoard Manet, que se tornou um amigo e cunhado muito intrometido, que decidia tudo sobre as pinturas de Berthe, chegando até mesmo a pintar sobre suas telas, como aconteceu em Menina no Sofá." },
-    { img: '/impressio/img4.png', text: "Mary Cassatt participou do movimento impressionista e rompeu com os padrões acadêmicos, sua pintura mais famosa é 'MENINA EM UMA POLTRONA AZUL', que foi exibida na quarta exposição impressionista." },
+    { img: '/renas/renascimento22.jpg', text: "Edgar Degas foi um pintor impressionista francês, consagrado por suas pinturas femininas, sobretudo pela série das bailarinas e também pelo efeito de movimento retratado em suas obras. Iniciou a tela 'A FAMÍLIA BALLELLI', onde retratou suas primas, sua tia Laura e seu tio Genaro. A obra só foi concluída em 1867." },
+    { img: '/renas/renascimento3.jpg', text: "'O ALMOÇO DOS BARQUEIROS': uma obra que saia do lugar comum impressionista. Pierre-Auguste Renoir pintou este quadro entre 1880 e 1881 e chamava atenção a escolha do tema: os subúrbios." },
+    { img: '/renas/renascimento1.jpg', text: "'DIA DE VERÃO' possui características da pintura impressionista como as pinceladas grossas, Berthe escolheu uma paisagem com duas mulheres num barco, uma cena do cotidiano. Essa obra possui a influência de Éduoard Manet, que se tornou um amigo e cunhado muito intrometido, que decidia tudo sobre as pinturas de Berthe, chegando até mesmo a pintar sobre suas telas, como aconteceu em Menina no Sofá." },
+    { img: '/renas/renascimento4.png', text: "Mary Cassatt participou do movimento impressionista e rompeu com os padrões acadêmicos, sua pintura mais famosa é 'MENINA EM UMA POLTRONA AZUL', que foi exibida na quarta exposição impressionista." },
 ]
 
 
@@ -62,13 +62,14 @@ export default function Impressionismo() {
             <section className={styles.img_fundo}>
 
 
-                <h1 className={styles.titulo}>Impressionismo</h1>
+                <h1 className={styles.titulo}>Renascimento</h1>
 
                 <br></br>
 
-                <p className={styles.fundo_texto}>O impressionismo é um movimento artístico francês surgido no final do século XIX.
-                    Artistas impressionistas, como Claude Monet, retrataram paisagens com contornos imprecisos.
-                    “Impressão, nascer do sol”, de Claude Monet, é a obra que deu nome ao movimento impressionista.
+                <p className={styles.fundo_texto}>O renascimento nas artes plásticas, teve início na Itália no século XV, mas se fortaleceu no século XIV.
+                renascimento foi marcado por intensas transformações sociais, políticas, financeiras e culturais. 
+                Caracteriza-se a racionalidade, busca pela perfeição, o antropocentrismo,
+                 o realismo e o surgimento de técnicas avançadas. 
                 </p>
 
             </section>
