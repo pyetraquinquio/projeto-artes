@@ -1,0 +1,142 @@
+.parallax1{
+    background-image: url(/princi/Renas.png);
+  
+    height: 450px; 
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    background-image: url(/princi/Barro.png);
+  
+    height: 450px;
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 {
+    background-image: url(/princi/Roman.png);
+  
+    height: 450px; 
+  
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+.parallax4 {
+    background-image: url(/princi/Neo.png);
+  
+    height: 450px; 
+  
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+
+.parallax5 {
+    background-image: url(/princi/Roco.png);
+  
+    height: 450px; 
+  
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+
+.parallax6 {
+    background-image: url(/princi/Rea.png);
+  
+    height: 450px; 
+  
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+
+.parallax7 {
+    background-image: url(/princi/Impre.png);
+  
+    height: 450px; 
+  
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+
+.parallax8 {
+    background-image: url(/princi/Abstra.jpg);
+  
+    height: 450px; 
+  
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+.title{
+        position: absolute;
+        margin-left: 40%;
+        margin-top: 15%;
+        text-align: center;
+        justify-content: center;
+        color: white;
+        font-size: 2rem;
+        letter-spacing: 10px;
+        }
+
+        .title2{
+            position: absolute;
+            margin-left: 45%;
+            margin-top: 15%;
+            text-align: center;
+            justify-content: center;
+            color: white;
+            font-size: 2rem;
+            letter-spacing: 10px;
+            }
+
+
+.texto{
+    background-color: #C1AA8C;
+    color: black;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.topo{
+    background-color: #875E34;
+    color: #C1AA8C;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 7%;
+}
+
+.strong{
+margin-top: 6px;
+font-family:Georgia, 'Times New Roman', Times, serif;
+}

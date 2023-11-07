@@ -4,6 +4,7 @@ import ImageGallery from "@/components/ImageGallery"
 //import { LoggedUserProvider } from "@/contexts/LoggedUserContext";
 //import Header from "@/components/Header"
 import styles from "@/app/impressionismo/galeria.module.css"
+import style from "@/app/romantismo/roman.module.css"
 import Link from "next/link"
 
 
@@ -46,11 +47,11 @@ export default function Romantismo() {
                     </li>
 
                     <li>
-                        <Link href="/rococo">Rococo</Link>
+                        <Link href="/rococo">Rococó</Link>
                     </li>
 
                     <li>
-                        <Link href="/romantismo">Romantismo</Link>
+                        <Link href="/impressionismo">Impressionismo</Link>
                     </li>
 
                     <li>
@@ -59,7 +60,7 @@ export default function Romantismo() {
                 </ul>
             </nav>
 
-            <section className={styles.img_fundo}>
+            <section className={style.img_fundo}>
 
 
                 <h1 className={styles.titulo}>Romantismo</h1>
