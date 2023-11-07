@@ -93,6 +93,18 @@ export default function Rococo() {
             <br></br>
             <br></br>
 
+            <div>
+
+                <iframe width="510" height="265" src="/roco/rococo.mp4"
+                    title="Mapa mental sobre o Rococó" frameborder="0"
+                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+
+            </div>
+
+            <br></br>
+            <br></br>
+
             <footer className={styles.footer}>
                 <h2>Grupo 05</h2>
                 <h2>SESI SENAI</h2>

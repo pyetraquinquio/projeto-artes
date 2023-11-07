@@ -20,7 +20,7 @@ export default function Realismo() {
     return (
         <>
 
-<nav>
+            <nav>
                 <ul>
                     <li>
                         <Link href="/principal">Início</Link>
@@ -67,9 +67,9 @@ export default function Realismo() {
 
                 <br></br>
 
-                <p className={styles.fundo_texto}>O realismo foi um movimento literário e artístico que teve início em meados do 
-                século XIX, na França. Como o próprio nome sugere, essa manifestação cultural significou um olhar mais realista e 
-                objetivo sobre a existência e as relações humanas, surgindo como oposição ao romantismo e sua visão idealizada da vida.
+                <p className={styles.fundo_texto}>O realismo foi um movimento literário e artístico que teve início em meados do
+                    século XIX, na França. Como o próprio nome sugere, essa manifestação cultural significou um olhar mais realista e
+                    objetivo sobre a existência e as relações humanas, surgindo como oposição ao romantismo e sua visão idealizada da vida.
                 </p>
 
             </section>
@@ -91,6 +91,19 @@ export default function Realismo() {
 
             <br></br>
             <br></br>
+
+            <div>
+
+                <iframe width="510" height="265" src="/rea/realismo.mp4"
+                    title="Mapa mental sobre o Realismo" frameborder="0"
+                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+
+            </div>
+
+            <br></br>
+            <br></br>
+
 
             <footer className={styles.footer}>
                 <h2>Grupo 05</h2>
