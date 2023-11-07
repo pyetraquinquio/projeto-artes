@@ -48,7 +48,7 @@ export default function Neo() {
                     </li>
 
                     <li>
-                        <Link href="/realismo">Impressionismo</Link>
+                        <Link href="/impressionismo">Impressionismo</Link>
                     </li>
 
                     <li>
@@ -56,7 +56,7 @@ export default function Neo() {
                     </li>
 
                     <li>
-                        <Link href="/sobrenos">Sobre nós</Link>
+                        <Link href="/sobrenos">Equipe</Link>
                     </li>
                 </ul>
             </nav>

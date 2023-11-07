@@ -55,7 +55,7 @@ export default function Romantismo() {
                     </li>
 
                     <li>
-                        <Link href="/sobrenos">Sobre nós</Link>
+                        <Link href="/sobrenos">Equipe</Link>
                     </li>
                 </ul>
             </nav>

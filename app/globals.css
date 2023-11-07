@@ -158,7 +158,7 @@ iframe {
 
 
 
-@media (prefers-color-scheme: dark) {
+@media only screen and (max-width:800px) {
   html {
     color-scheme: dark;
   }
@@ -173,7 +173,7 @@ iframe {
   }
 
   li {
-    font-size: xx-small;
+    font-size: x-small;
   }
 
   .descricao {

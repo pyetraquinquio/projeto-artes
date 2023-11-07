@@ -56,7 +56,7 @@ export default function Rococo() {
                     </li>
 
                     <li>
-                        <Link href="/sobrenos">Sobre nós</Link>
+                        <Link href="/sobrenos">Equipe</Link>
                     </li>
                 </ul>
             </nav>

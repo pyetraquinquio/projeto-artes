@@ -149,3 +149,15 @@ font-family:Georgia, 'Times New Roman', Times, serif;
 font-size: larger;
 color: #C1AA8C;
 }
+
+@media only screen and (max-width:800px) {
+    .title {
+        margin-left: 30%;
+        margin-top: 25%;
+    }
+
+    .title2 {
+        margin-left: 40%;
+        margin-top: 25%;
+    }
+}
