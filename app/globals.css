@@ -151,6 +151,11 @@ a {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+iframe {
+ 
+  margin-left: 33%;
+}
+
 
 
 @media (prefers-color-scheme: dark) {

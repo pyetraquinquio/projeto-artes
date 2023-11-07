@@ -4,6 +4,7 @@ import ImageGallery from "@/components/ImageGallery"
 //import { LoggedUserProvider } from "@/contexts/LoggedUserContext";
 //import Header from "@/components/Header"
 import styles from "@/app/impressionismo/galeria.module.css"
+import style from "@/app/neoclassicismo/neo.module.css"
 import Link from "next/link"
 
 
@@ -34,7 +35,19 @@ export default function Neo() {
                     </li>
 
                     <li>
+<<<<<<< HEAD
                         <Link href="/romantismo">Romantismo</Link>
+=======
+                        <Link href="/neoclassicismo">Impressionismo</Link>
+                    </li>
+
+                    <li>
+                        <Link href="/realismo">Realismo</Link>
+                    </li>
+
+                    <li>
+                        <Link href="/renascimento">Renascimento</Link>
+>>>>>>> ff1e04a715c9e3a9709f0546ac256c0057ef735b
                     </li>
 
                     <li>
@@ -59,7 +72,7 @@ export default function Neo() {
                 </ul>
             </nav>
 
-            <section className={styles.img_fundo}>
+            <section className={style.img_fundo}>
 
 
                 <h1 className={styles.titulo}>Neoclassicismo</h1>

@@ -50,7 +50,15 @@ export default function Impressionismo() {
                     </li>
 
                     <li>
+<<<<<<< HEAD
                         <Link href="/abstracionismo">Abstracionismo</Link>
+=======
+                        <Link href="/rococo">Rococó</Link>
+                    </li>
+
+                    <li>
+                        <Link href="/romantismo">Romantismo</Link>
+>>>>>>> ff1e04a715c9e3a9709f0546ac256c0057ef735b
                     </li>
 
                     <li>
@@ -87,6 +95,18 @@ export default function Impressionismo() {
             <br></br>
 
             <h2 className={styles.h1}>Vídeo Explicativo</h2>
+
+            <br></br>
+            <br></br>
+
+            <div>
+
+                <iframe width="510" height="265" src="/renas/renascimentovideooficial.mp4"
+                    title="Mapa mental sobre o Renascimento" frameborder="0"
+                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+
+            </div>
 
             <br></br>
             <br></br>

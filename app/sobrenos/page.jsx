@@ -50,7 +50,13 @@ export default function SobreNos() {
                     </li>
 
                     <li>
+<<<<<<< HEAD
                         <Link href="/barroco">Barroco</Link>
+=======
+
+                        <Link href="/rococo">Rococó</Link>
+
+>>>>>>> ff1e04a715c9e3a9709f0546ac256c0057ef735b
                     </li>
 
                     <li>

@@ -27,6 +27,25 @@ export default function Abstracionismo() {
                     </li>
 
                     <li>
+<<<<<<< HEAD
+=======
+                        <Link href="/impressionismo">Impressionismo</Link>
+                    </li>
+
+                    <li>
+                        <Link href="/barroco">Barroco</Link>
+                    </li>
+
+                    <li>
+                        <Link href="/neoclassicismo">Neoclassicismo</Link>
+                    </li>
+
+                    <li>
+                        <Link href="/realismo">Realismo</Link>
+                    </li>
+
+                    <li>
+>>>>>>> ff1e04a715c9e3a9709f0546ac256c0057ef735b
                         <Link href="/renascimento">Renascimento</Link>
                     </li>
 
@@ -88,6 +107,18 @@ export default function Abstracionismo() {
             <br></br>
 
             <h2 className={styles.h1}>Vídeo Explicativo</h2>
+
+            <br></br>
+            <br></br>
+
+            <div>
+
+                <iframe width="510" height="265" src="/abs/abstracionismovideooficial.mp4"
+                    title="Mapa mental sobre o Abstracionismo" frameborder="0"
+                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+
+            </div>
 
             <br></br>
             <br></br>

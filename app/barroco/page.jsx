@@ -4,6 +4,7 @@ import ImageGallery from "@/components/ImageGallery"
 //import { LoggedUserProvider } from "@/contexts/LoggedUserContext";
 //import Header from "@/components/Header"
 import styles from "@/app/impressionismo/galeria.module.css"
+import style from "@/app/barroco/barroco.module.css"
 import Link from "next/link"
 
 
@@ -15,7 +16,7 @@ const fotos = [
 ]
 
 
-export default function Impressionismo() {
+export default function Barroco() {
     return (
         <>
 
@@ -30,7 +31,11 @@ export default function Impressionismo() {
                     </li>
 
                     <li>
+<<<<<<< HEAD
                         <Link href="/romantismo">Romantismo</Link>
+=======
+                        <Link href="/barroco">Impressionismo</Link>
+>>>>>>> ff1e04a715c9e3a9709f0546ac256c0057ef735b
                     </li>
 
                     <li>
@@ -59,16 +64,16 @@ export default function Impressionismo() {
                 </ul>
             </nav>
 
-            <section className={styles.img_fundo}>
+            <section className={style.img_fundo}>
 
 
-                <h1 className={styles.titulo}>Impressionismo</h1>
+                <h1 className={styles.titulo}>Barroco</h1>
 
                 <br></br>
 
-                <p className={styles.fundo_texto}>O impressionismo é um movimento artístico francês surgido no final do século XIX.
-                    Artistas impressionistas, como Claude Monet, retrataram paisagens com contornos imprecisos.
-                    “Impressão, nascer do sol”, de Claude Monet, é a obra que deu nome ao movimento impressionista.
+                <p className={styles.fundo_texto}>O barroco é um movimento artístico que compreende múltiplas manifestações 
+                artísticas — literatura, pintura, arquitetura, música — produzidas entre o final do século XVI e o 
+                início do século XVIII.
                 </p>
 
             </section>
@@ -87,6 +92,18 @@ export default function Impressionismo() {
             <br></br>
 
             <h2 className={styles.h1}>Vídeo Explicativo</h2>
+
+            <br></br>
+            <br></br>
+
+            <div>
+
+                <iframe width="510" height="265" src="/barro/barrocovideooficial.mp4"
+                    title="Mapa mental sobre o Barroco" frameborder="0"
+                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+
+            </div>
 
             <br></br>
             <br></br>
