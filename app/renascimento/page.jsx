@@ -58,13 +58,14 @@ export default function Impressionismo() {
             <section className={styles.img_fundo}>
 
 
-                <h1 className={styles.titulo}>Impressionismo</h1>
+                <h1 className={styles.titulo}>Renascimento</h1>
 
                 <br></br>
 
-                <p className={styles.fundo_texto}>O impressionismo é um movimento artístico francês surgido no final do século XIX.
-                    Artistas impressionistas, como Claude Monet, retrataram paisagens com contornos imprecisos.
-                    “Impressão, nascer do sol”, de Claude Monet, é a obra que deu nome ao movimento impressionista.
+                <p className={styles.fundo_texto}>O renascimento nas artes plásticas, teve início na Itália no século XV, mas se fortaleceu no século XIV.
+                renascimento foi marcado por intensas transformações sociais, políticas, financeiras e culturais. 
+                Caracteriza-se a racionalidade, busca pela perfeição, o antropocentrismo,
+                 o realismo e o surgimento de técnicas avançadas. 
                 </p>
 
             </section>
