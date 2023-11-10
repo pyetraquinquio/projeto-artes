@@ -6,3 +6,11 @@
     color: #fff1e6;
     padding: 2rem;
   }
+
+  @media only screen and (max-width:800px){
+
+    .img_fundo{
+    background-image: url(/integrantes/fundo.final\ -\ Copia.jpg);
+    }
+
+  }
