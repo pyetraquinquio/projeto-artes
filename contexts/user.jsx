@@ -6,7 +6,6 @@ const UserContext = createContext();
 
 export default function AppStore({ children }) {
   const [user, setUser] = useState({
-    id: 1,
     name: 'Olá, Victor'
   });
 

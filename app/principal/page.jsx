@@ -7,7 +7,6 @@ import { useUserContext } from "@/contexts/user"
 export default function Parallax(){
     const { user } = useUserContext();
 
-
     return( 
          <>
         

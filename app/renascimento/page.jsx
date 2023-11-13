@@ -4,6 +4,7 @@ import ImageGallery from "@/components/ImageGallery"
 import styles from "@/app/impressionismo/galeria.module.css"
 import Link from "next/link"
 import style from "@/app/renascimento/renas.module.css"
+import { useUserContext } from "@/contexts/user"
 
 
 const fotos = [
@@ -15,10 +16,11 @@ const fotos = [
 
 
 export default function Renascimento() {
+    const { user } = useUserContext();
     return (
         <>
 
-<nav>
+            <nav>
                 <ul>
                     <li>
                         <Link href="/principal">Início</Link>
@@ -60,15 +62,17 @@ export default function Renascimento() {
 
             <section className={style.img_fundo}>
 
-
-                <h1 className={styles.titulo}>Renascimento</h1>
+                <div className="n">
+                    <h1 className={styles.titulo}>Renascimento</h1>
+                    <p>{user.name}</p>
+                </div>
 
                 <br></br>
 
                 <p className={styles.fundo_texto}>O renascimento nas artes plásticas, teve início na Itália no século XV, mas se fortaleceu no século XIV.
-                renascimento foi marcado por intensas transformações sociais, políticas, financeiras e culturais. 
-                Caracteriza-se a racionalidade, busca pela perfeição, o antropocentrismo,
-                 o realismo e o surgimento de técnicas avançadas. 
+                    renascimento foi marcado por intensas transformações sociais, políticas, financeiras e culturais.
+                    Caracteriza-se a racionalidade, busca pela perfeição, o antropocentrismo,
+                    o realismo e o surgimento de técnicas avançadas.
                 </p>
 
             </section>

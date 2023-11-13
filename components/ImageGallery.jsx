@@ -13,7 +13,6 @@ const ImageGallery = (props) => {
     const closeImage = () => {
         setSelectedImage(null);
         setSelectedText(null);
-
     };
 
 

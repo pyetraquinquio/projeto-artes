@@ -21,7 +21,7 @@ export default function Rococo() {
     return (
         <>
 
-<nav>
+            <nav>
                 <ul>
                     <li>
                         <Link href="/principal">Início</Link>
@@ -63,15 +63,15 @@ export default function Rococo() {
 
             <section className={style.img_fundo}>
 
-            <div className="n">
-                <h1 className={styles.titulo}>Rococó</h1>
-                <p>{user.name}</p>
-</div>
+                <div className="n">
+                    <h1 className={styles.titulo}>Rococó</h1>
+                    <p>{user.name}</p>
+                </div>
                 <br></br>
 
-                <p className={styles.fundo_texto}>O movimento trás a suavidade e leveza nas cores, caráter intimista, 
-                linhas e formas sutis e delicadas. Além de retratar os costumes da época e a vida profana da aristocracia, 
-                também eram usados temas ligados à natureza, como plantas, flores delicadas, cascatas de águas e pássaros.
+                <p className={styles.fundo_texto}>O movimento trás a suavidade e leveza nas cores, caráter intimista,
+                    linhas e formas sutis e delicadas. Além de retratar os costumes da época e a vida profana da aristocracia,
+                    também eram usados temas ligados à natureza, como plantas, flores delicadas, cascatas de águas e pássaros.
                 </p>
 
             </section>
