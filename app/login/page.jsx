@@ -1,6 +1,5 @@
 "use client"
 
-import { useState } from "react"
 import styles from "./loginn.module.css"
 import Link from "next/link";
 
@@ -9,7 +8,6 @@ import Link from "next/link";
 
 export default function Login() {
 
-    const [name, setName] = useState();
 
     return (
         
