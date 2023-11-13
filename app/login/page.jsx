@@ -9,7 +9,7 @@ import Link from "next/link";
 
 export default function Login() {
 
-    const [name, setName] = useState();
+    
 
     return (
         
