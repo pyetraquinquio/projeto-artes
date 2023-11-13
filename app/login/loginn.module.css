@@ -45,3 +45,9 @@
     font-size: large;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+@media only screen and (max-width:800px) {
+    .div {
+        margin-left: 10%;
+    }
+}
