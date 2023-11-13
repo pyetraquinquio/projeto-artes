@@ -2,28 +2,25 @@
 
 import ImageGallery from "@/components/ImageGallery"
 //import { LoggedUserProvider } from "@/contexts/LoggedUserContext";
-import styles from "@/app/impressionismo/galeria.module.css"
+import styles from "@/app/impressionismo/galeria.modsssule.css"
 import Link from "next/link"
 import style from "@/app/renascimento/renas.module.css"
-import { useUserContext } from "@/contexts/user"
 
 
 const fotos = [
     { img: '/renas/renas1.png', text: " obra 'A Primavera' (1482), também conhecido como Alegoria da Primavera, é um quadro do pintor Sandro Botticelli. A pintura utiliza a técnica de têmpera sobre madeira. O quadro retrata a alegoria da chegada dessa estação." },
     { img: '/renas/renascimento8.jpeg', text: "'Entrega das chaves a São Pedro' é uma pintura criada por Perugino e seus assistentes. Essa obra tinha como objetivo fazer um paralelo entre a vida do profeta Moisés (Antigo Testamento) e a de Jesus Cristo (Segundo Testamento)." },
     { img: '/renas/renascimento3.jpg', text: "A obra 'A Última Ceia' de Leonardo Da Vinci é uma pintura que retrata as passagens bíblicas que contam sobre a traição de Jesus Cristo por um dos seus discípulos. A obra com 460 por 880 cm, foi feita na parede de uma igreja em Milão, na Itália.  A Última Ceia de Leonardo Da Vinci começou a ser pintada pelo artista em 1495." },
-    { img: '/renas/renascimento12.jpg', text: "O quadro NASCIMENTO DE VÊNUS, pintado por Sandro Botticelli em 1482, faz parte, em conjunto com a tela A Alegoria da primavera realizada entre 1477 e 1478." },
+    { img: '/renas/renascimento12.jpg', text: "O quadro O NASCIMENTO DE VÊNUS, pintado por Sandro Botticelli em 1482, faz parte, em conjunto com a tela A Alegoria da primavera realizada entre 1477 e 1478" },
 ]
 
 
 export default function Renascimento() {
-    const { user } = useUserContext();
     return (
         <>
 
 <nav>
                 <ul>
-                    
                     <li>
                         <Link href="/principal">Início</Link>
                     </li>
@@ -64,10 +61,9 @@ export default function Renascimento() {
 
             <section className={style.img_fundo}>
 
-            <div className="n">
+
                 <h1 className={styles.titulo}>Renascimento</h1>
-                <p>{user.name}</p>
-</div>
+
                 <br></br>
 
                 <p className={styles.fundo_texto}>O renascimento nas artes plásticas, teve início na Itália no século XV, mas se fortaleceu no século XIV.
