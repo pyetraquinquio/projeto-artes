@@ -1,5 +1,6 @@
 import { useState } from "react";
 import styles from "../app/impressionismo/galeria.module.css"
+import Image from "next/image";
 
 const ImageGallery = (props) => {
     const [selectedImage, setSelectedImage] = useState(null);
@@ -27,7 +28,7 @@ const ImageGallery = (props) => {
                         className={styles.imageThumbnail}
                         onClick={() => openImage(imageUrl)}
                     >
-                        <img src={imageUrl.img} alt={`Image ${index}`} />
+                        <Image src={imageUrl.img} alt={`Image ${index}`} />
 
                         
                     </div>
@@ -42,7 +43,7 @@ const ImageGallery = (props) => {
                         &times;
                     </span>
 
-                    <img src={selectedImage} alt="Selected Image"/>
+                    <Image src={selectedImage} alt="Selected Image"/>
 
                     <p className="descricao">{selectedText}</p>
 
