@@ -1,7 +1,6 @@
 "use client"
 
 import ImageGallery from "@/components/ImageGallery"
-//import { LoggedUserProvider } from "@/contexts/LoggedUserContext";
 import styles from "@/app/impressionismo/galeria.module.css"
 import Link from "next/link"
 import style from "@/app/renascimento/renas.module.css"
