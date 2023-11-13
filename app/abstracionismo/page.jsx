@@ -82,8 +82,8 @@ export default function Abstracionismo() {
           O abstracionismo é um estilo artístico moderno das artes visuais que
           não representa objetos próprios da nossa realidade concreta exterior.
           Ao invés disso, usa as relações formais entre cores, linhas e
-          superfícies para compor a realidade da obra, de uma maneira "não
-          representacional".
+          superfícies para compor a realidade da obra, de uma maneira não
+          representacional.
         </p>
       </section>
 
