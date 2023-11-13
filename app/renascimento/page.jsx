@@ -1,6 +1,6 @@
 "use client"
 
-import ImageGallery from "@/components/ImageGallery"
+import ImageRenas from "@/components/ImageRenas"
 import styles from "@/app/impressionismo/galeria.module.css"
 import Link from "next/link"
 import style from "@/app/renascimento/renas.module.css"
@@ -85,7 +85,7 @@ export default function Renascimento() {
             <br></br>
             <br></br>
 
-            <ImageGallery fotos={fotos} />
+            <ImageRenas fotos={fotos} />
 
             <br></br>
             <br></br>
