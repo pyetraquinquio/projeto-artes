@@ -1,15 +1,15 @@
 "use client"
 
-import { useState } from "react"
+
 import styles from "./loginn.module.css"
 import Link from "next/link";
 
 
-//import LoggedUserProvider from "@/contexts/LoggedUserContext"
+
 
 export default function Login() {
 
-    const [name, setName] = useState();
+   
 
     return (
         
